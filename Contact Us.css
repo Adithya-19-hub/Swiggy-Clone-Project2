@@ -1,0 +1,340 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ html,body{
+    height:100%;
+    width:100%;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ .container-fluid {
+     background: linear-gradient(180.27deg, #FFFFFF 0.23%, #FEFBFF 13.48%, #EBEBF3 51.03%);
+     position: absolute;
+     top: -20px;
+ }
+
+ .container {
+     position: absolute;
+     top: 600px;
+ }
+
+ .Swiggy-alt-logo {
+     height: 42px;
+     width: 128px;
+ }
+
+ .list-items ul {
+     display: flex;
+     position: fixed;
+     width: 100%;
+     background-color: white;
+     z-index: 2;
+     left: 0;
+ }
+
+ .Corporate-items {
+     text-decoration: none;
+     margin: 10px;
+     font-size: 14px;
+     position: relative;
+     left: 128px;
+     top: 33px;
+     color: #242424;
+ }
+
+ .sec-class:hover {
+     color: #ff5200;
+     transition: 0.4s;
+ }
+
+ .parent-part01 {
+     position: absolute;
+     top: 140px;
+     left: 130px;
+ }
+
+ .customer {
+     font-weight: bold;
+ }
+
+ .email a {
+     text-decoration: none;
+     color: #ff5200;
+     font-weight: bold;
+ }
+
+ #email {
+     margin-left: -7px;
+ }
+
+ .supportemail:hover {
+     color: navy;
+ }
+
+ .finduson {
+     font-weight: bold;
+ }
+
+ .Social-account {
+     display: flex;
+     margin-left: -9px;
+ }
+
+ .elementor-icon {
+     margin: 12px;
+ }
+
+ .Corporate-office {
+     font-weight: bold;
+ }
+
+ .Corporate-para {
+     color: #393636;
+     font-size: 13px;
+ }
+
+ .get-direction-parent {
+     text-decoration: none;
+     color: white;
+     background-color: #ff5200;
+     ;
+     padding: 8px 14px;
+     border-radius: 10px;
+     font-size: 12px;
+ }
+
+ .elementor-image img {
+     height: 125px;
+     width: 125px;
+     margin-top: 455px;
+ }
+
+ .image2 img {
+     float: right;
+     height: 169px;
+     margin-top: -524px;
+     width: 136px;
+ }
+
+ .Content-starts {
+     margin-left: 120px;
+     margin-top: 84px;
+ }
+
+ .dropdown {
+     border: none;
+     cursor: pointer;
+     background-color: white;
+ }
+
+ .Investors {
+     font-weight: bold;
+     font-size: 19px;
+ }
+
+ .register,
+ .Public-relations {
+     font-weight: bold;
+     font-size: 19px;
+ }
+
+ .linkin {
+     font-weight: bold;
+     text-decoration: none;
+ }
+
+ .second-content03 {
+     float: right;
+     margin-top: -340px;
+     margin-right: 105px;
+ }
+
+ .second-email03,
+ .terms-conditions {
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .Swiggy-Owner {
+     font-size: 16px;
+ }
+
+ /* css added to Swiggy app */
+ .getSwiggyapp {
+     position: absolute;
+     top: 1180px;
+     z-index: -2;
+     left: 0;
+ }
+
+ .imgs9 {
+     margin-top: -165px;
+ }
+
+ /* Footer css */
+ .social-links {
+     display: inline-block;
+     position: relative;
+     left: 66px;
+     top: -65px;
+ }
+
+ a{
+    color:#000;
+ }
+
+ #underline {
+     position: relative;
+     top: 240px;
+     left: 50px;
+ }
+
+ .list-items {
+     list-style: none;
+     display: inline-block;
+     font-size: 13px;
+     line-height: 25px;
+ }
+
+ #swiggy-limited {
+     font-size: 12px;
+     margin-top: 5px;
+     margin-left: 72px;
+ }
+
+ .footer-heading {
+     font-size: 16px;
+ }
+
+ .footer-part {
+     position: absolute;
+     left: 390px;
+ }
+
+ #company {
+     margin-top: -70px;
+ }
+
+ #contact {
+     position: absolute;
+     top: -68px;
+     left: 145px;
+ }
+
+ #legal {
+     position: relative;
+     top: 8px;
+     left: 11px;
+ }
+
+ #available {
+     position: absolute;
+     top: -68px;
+     left: 290px;
+     text-wrap: nowrap;
+ }
+
+ #life-at-swiggy {
+     position: relative;
+     top: -170px;
+     left: 186px;
+ }
+
+ #Swiggy-text {
+     margin-top: 280px;
+     margin-left: 76px;
+     font-weight: bold;
+ }
+
+ .imgs .img {
+     float: right;
+     height: 50px;
+     width: 130px;
+     margin: 6px;
+     position: relative;
+     top: -50px;
+     right: 190px;
+ }
+
+ .img:hover {
+     cursor: pointer;
+     transition: 1s;
+     transform: scale(1.1);
+ }
+
+ .footer-container {
+     position: relative;
+     top: 660px;
+     z-index: -2;
+ }
+
+ .sub-items {
+     position: relative;
+     color: #242424;
+     text-decoration: none;
+ }
+
+ .Swiggy-img {
+     height: 35px;
+     margin-left: 72px;
+ }
+
+ .elementor-element2 {
+     margin-top: -470px;
+     position: absolute;
+     left: 660px;
+     border: 2px solid white;
+     width: 360px;
+     background-color: rgb(245, 245, 245);
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .get-in-touch {
+     font-size: 21px;
+     font-weight: bold;
+ }
+
+ .Name {
+     margin-top: -20px;
+     font-size: 13px;
+     border: none;
+     border-radius: 5px;
+     padding: 0 8px;
+ }
+
+ .email {
+     border: none;
+     border-radius: 5px;
+     font-size: 13px;
+     padding: 0 8px;
+ }
+
+ .message {
+     border: none;
+     border-radius: 5px;
+     font-size: 13px;
+     padding: 4px 10px;
+ }
+
+ .Submit-btn {
+     background-color: #ff5200;
+     color: white;
+     padding: 5px 10px;
+     font-size: 13px;
+     border: none;
+     border-radius: 10px;
+ }
+
+ #bottom-para {
+     color: rgb(133, 129, 129);
+     font-size: 12px;
+     text-align: center;
+ }

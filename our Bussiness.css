@@ -1,0 +1,356 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .container-fluid {
+     position: relative;
+     top: -20px;
+     left: -12px;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ .Swiggy-alt-logo {
+     height: 42px;
+     width: 128px;
+ }
+
+ .list-items ul {
+     display: flex;
+     position: fixed;
+     width: 100%;
+     background-color: white;
+     z-index: -1;
+ }
+
+ .Corporate-items {
+     text-decoration: none;
+     margin: 13px;
+     font-size: 14px;
+     position: relative;
+     left: 128px;
+     top: 33px;
+     color: #242424;
+ }
+
+ #our-bussiness {
+     color: #ff5200;
+ }
+
+ .sec-class:hover {
+     color: #ff5200;
+     transition: 0.4s;
+     font-weight: 400;
+ }
+
+ .dropdown {
+     border: none;
+     cursor: pointer;
+     background-color: white;
+ }
+
+ .container {
+     position: absolute;
+     z-index: -2;
+     top: 80px;
+ }
+
+ .bussiness-parent {
+     margin: 33px 0px 10px 0px;
+     padding: 0px 0px 0px 0px;
+ }
+
+ .bussiness {
+     font-size: 40px;
+     font-weight: 900;
+     text-transform: uppercase;
+     line-height: 49.92px;
+     letter-spacing: 0.03px;
+     color: black;
+     margin-left: 70px;
+ }
+
+ .aos-animate {
+     text-align: center;
+ }
+
+ .img1 img {
+     max-width: 159px;
+     width: 105px;
+     height: 115px;
+     position: relative;
+     bottom: 56px;
+ }
+
+ .img1:hover {
+     transform: scale(1.4);
+     transition: 0.9s;
+ }
+
+ .img2 img {
+     max-width: 159px;
+     width: 90px;
+     height: 120px;
+     position: relative;
+     bottom: 65px;
+ }
+
+ .img2:hover {
+     transform: scale(1.4);
+     transition: 0.9s;
+ }
+
+ .img3 img {
+     max-width: 159px;
+     width: 100px;
+     height: 130px;
+     position: relative;
+     bottom: 60px;
+ }
+
+ .img3:hover {
+     transform: scale(1.4);
+     transition: 0.9s;
+ }
+
+ .img4 img {
+     max-width: 159px;
+     width: 100px;
+     height: 146px;
+     position: relative;
+     bottom: 68px;
+ }
+
+ .img4:hover {
+     transform: scale(1.4);
+     transition: 0.9s;
+ }
+
+ .img5 img {
+     max-width: 159px;
+     width: 130px;
+     height: 146px;
+     position: relative;
+     bottom: 70px;
+ }
+
+ .img5:hover {
+     transform: scale(1.4);
+     transition: 0.9s;
+ }
+
+ .img6 img {
+     max-width: 159px;
+     width: 130px;
+     height: 146px;
+     position: relative;
+     bottom: 70px;
+ }
+
+ .img6:hover {
+     transform: scale(1.4);
+     transition: 0.9s;
+ }
+
+ .pp {
+     font-size: 24px;
+     font-weight: 800;
+     text-transform: none;
+     line-height: 36px;
+     letter-spacing: 0.04px;
+     color: #02060CBF;
+     position: absolute;
+     bottom: 270px;
+ }
+
+ .place-order {
+     background-color: #ff5200;
+     font-size: 13px;
+     font-weight: bold;
+     line-height: 22px;
+     letter-spacing: -0.3px;
+     border-radius: 12px 12px 12px 12px;
+     padding: 7px 8px;
+     width: 180px;
+ }
+
+ a {
+     color: white;
+     text-decoration: none;
+ }
+
+ #click-here {
+     text-wrap: nowrap;
+     font-size: 12px;
+ }
+
+ .know-more {
+     background-color: #ff5200;
+     font-size: 15px;
+     font-weight: bold;
+     line-height: 22px;
+     letter-spacing: -0.3px;
+     border-radius: 12px 12px 12px 12px;
+     padding: 8px 8px;
+     width: 110px;
+ }
+
+ .card {
+     border-radius: 40px;
+     text-align: center;
+ }
+
+ .card:hover {
+     border: 1px solid #ff5200;
+     box-shadow: 5px -7px 30px -2px #ff5200;
+ }
+
+ .card-text {
+     font-size: 13px;
+     color: #3b3838;
+ }
+
+ .card-body {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .parentcart {
+     position: absolute;
+     top: 200px;
+     left: 100px;
+     display: grid;
+     grid-template-columns: repeat(3, 300px);
+     gap: 30px;
+     row-gap: 120px;
+ }
+
+ #genietext {
+     position: absolute;
+     top: 150px;
+ }
+
+ #knowid {
+     position: absolute;
+     top: 325px;
+ }
+
+ #secondplace {
+     position: absolute;
+     top: 320px;
+ }
+
+ .getSwiggyapp {
+     position: absolute;
+     top: 1180px;
+     z-index: -2;
+     left: 0;
+ }
+
+ /* Footer css */
+ .social-links {
+     display: inline-block;
+     position: relative;
+     left: 66px;
+     top: -65px;
+ }
+
+ #underline {
+     position: relative;
+     top: 240px;
+ }
+
+ .list-items {
+     list-style: none;
+     display: inline-block;
+     font-size: 13px;
+     line-height: 25px;
+ }
+
+ #swiggy-limited {
+     font-size: 12px;
+     margin-top: 5px;
+     margin-left: 72px;
+ }
+
+ .footer-heading {
+     font-size: 16px;
+ }
+
+ .footer-part {
+     position: absolute;
+     left: 390px;
+ }
+
+ #company {
+     margin-top: -70px;
+ }
+
+ #contact {
+     position: absolute;
+     top: -68px;
+     left: 145px;
+ }
+
+ #legal {
+     position: relative;
+     top: 8px;
+     left: 11px;
+ }
+
+ #available {
+     position: absolute;
+     top: -68px;
+     left: 290px;
+     text-wrap: nowrap;
+ }
+
+ #life-at-swiggy {
+     position: relative;
+     top: -170px;
+     left: 186px;
+ }
+
+ #Swiggy-text {
+     margin-top: 280px;
+     margin-left: 76px;
+     font-weight: bold;
+ }
+
+ .imgs .img {
+     float: right;
+     height: 50px;
+     width: 130px;
+     margin: 6px;
+     position: relative;
+     top: -50px;
+     right: 180px;
+ }
+
+ .img:hover {
+     cursor: pointer;
+     transition: 1s;
+     transform: scale(1.1);
+ }
+
+ .footer-container {
+     position: relative;
+     top: 1360px;
+     z-index: -2;
+ }
+
+ .sub-items {
+     position: relative;
+     color: #242424;
+ }
+
+ .Swiggy-img {
+     height: 35px;
+     margin-left: 72px;
+ }

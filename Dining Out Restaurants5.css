@@ -1,0 +1,939 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.diningOut-header {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    margin-left: 33px;
+}
+
+#logo {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.Swiggy-img {
+    height: 35px;
+    margin-left: 72px;
+}
+
+.location-arrow {
+    width: 20px;
+    height: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.search-bar {
+    border-radius: 8px;
+    background-color: rgb(240, 240, 245);
+    padding: 8px 20px;
+    border: none;
+    width: 340px;
+    margin-left: 140px;
+}
+
+.search-text {
+    text-align: start;
+}
+
+.set {
+    display: flex;
+    flex-direction: row;
+}
+
+.Account-logo {
+    width: 30px;
+    cursor: pointer;
+}
+
+.precise-location {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 24px;
+}
+
+.fa-solid {
+    position: absolute;
+    right: 250px;
+    top: 23px;
+    font-size: 13px;
+    color: grey;
+}
+
+#horizontal-line {
+    margin-top: -5px;
+}
+
+#horizontal-line2 {
+    margin-top: 10px;
+}
+
+.img1 {
+    height: 270px;
+    width: 960px;
+    border-radius: 16px;
+    margin-left: 95px;
+}
+
+.klWrLQ {
+    margin: 0px;
+}
+
+.bljDBE {
+    position: absolute;
+    top: 52%;
+    left: calc(2% + 5px);
+    width: 205px;
+}
+
+.dyhewv {
+    font-size: 23px;
+    text-wrap: nowrap;
+    line-height: 1.2;
+    height: 100%;
+    font-weight: bold;
+    color: rgb(255, 238, 229);
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.kglgaR {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 130px;
+    margin: 90px 12px;
+}
+
+.dineout {
+    font-weight: bold;
+    margin-left: 113px;
+    margin-top: -19px;
+    font-size: 14px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.order {
+    font-size: 13px;
+    margin-left: 18px;
+}
+
+.colororange {
+    border: 2px solid #ff5200;
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 109px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.list-items-unique {
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+}
+
+.text-details {
+    border: 1px solid #242424;
+    border-radius: 18px;
+    width: 80px;
+    padding: 6px 10px 6px 9px;
+    font-weight: #242424;
+    font-size: 11px;
+    cursor: pointer;
+    text-align: center;
+    text-wrap: nowrap;
+    margin: 3px;
+}
+
+#filter,
+#sortby {
+    text-align: start;
+}
+
+#serves {
+    padding: 5px 90px 0px 5px;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Swiggy-box {
+    border: 1px solid black;
+    height: 180px;
+    width: 90%;
+    border-radius: 12px;
+    margin-top: -380px;
+}
+
+#Swiggy-info {
+    font-size: 13px;
+    color: grey;
+    margin-left: 18px;
+}
+
+.seemore {
+    color: #ff5200;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    background-color: white;
+    margin-left: 2px;
+}
+
+.Swiggy-element {
+    display: grid;
+    grid-template-columns: repeat(4, 203px);
+    justify-content: center;
+    align-items: center;
+}
+
+.Swiggy-boxes {
+    border: 1px solid black;
+    height: 35px;
+    width: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-wrap: nowrap;
+    font-size: 10px;
+    text-align: center;
+    place-content: center;
+    font-weight: bold;
+}
+
+.Swiggy-text {
+    margin-left: 200px;
+    font-weight: bold;
+    position: relative;
+    text-wrap: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: #4a4747;
+}
+
+.form-select {
+    width: 181px;
+    cursor: pointer;
+    text-align: center;
+    color: #ff5200;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    border-radius: 12px;
+}
+
+.parent-card {
+    display: grid;
+    grid-template-columns: repeat(3, 190px);
+    grid-template-rows: repeat(3, 285px);
+    gap: 120px;
+    margin-left: 61px;
+}
+
+.evCvfO {
+    width: 300px;
+    background-color: white;
+    border-radius: 16px;
+    height: fit-content;
+    filter: drop-shadow(rgba(27, 30, 36, 0.08) 0px 0px 7.905px);
+    border: 1px solid rgba(2, 6, 12, 0.08);
+    text-decoration: none;
+    display: block;
+}
+
+.itRIyg {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.lkpqS {
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+}
+
+.dnBtAy {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgb(255, 255, 255);
+}
+
+
+.exZioo {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.33px;
+    color: rgb(255, 255, 255);
+}
+
+.BEWkR {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.33px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-box-orient: vertical;
+}
+
+.hrKRzt {
+    white-space: nowrap;
+}
+
+.dTXsaS {
+    display: flex;
+    padding: 2px 8px;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 12px;
+    background: var(--Light-Button-Background-Tertiary---Low, #f0f0f5);
+}
+
+.jCPgxj {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.33px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+.kwChQP {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 182px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    border-radius: 16px;
+}
+
+.iFfhgL {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 50px);
+    border-radius: 16px;
+}
+
+.imgs9 {
+    margin-top: -100px;
+}
+
+.hxenBp {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-box-orient: vertical;
+}
+
+.kamYmi {
+    display: flex;
+    gap: 4px;
+    margin-top: 10px;
+    margin-right: -12px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.BEWkR {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.33px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-box-orient: vertical;
+}
+
+.jjXWUL {
+    display: flex;
+    gap: 4px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.kGTuBe {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.iyTBvp {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 50px;
+    padding: 16px 12px 12px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.jbisoc {
+    padding: 6px 12px 12px;
+}
+
+.jAeDSA {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 4px;
+}
+
+.bXcPtu {
+    border-radius: 8px;
+    background: rgb(27, 166, 114);
+    height: 28px;
+    margin-top: 10px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+
+.bjoSFk {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/v1660817172/fmm5iczsymawuandjrsr.jpg);
+    opacity: 6;
+    border-radius: 16px 16px 0px 0px;
+    transition: opacity 0.5s;
+}
+
+.ewHcud {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 28px;
+    border-radius: 8px;
+    background: var(--Light-Comms-Positive-Sub, #c8f9e5);
+    margin-top: 10px;
+    padding-left: 8px;
+}
+
+.UoGwL {
+    padding-top: 10px;
+}
+
+.hnhgbZ {
+    width: 26px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.kXTeQG {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.35px;
+    color: rgb(255, 255, 255);
+}
+
+.xHmzd {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgb(27, 166, 114);
+}
+
+.UoGwL {
+    padding-top: 10px;
+}
+
+.kiKeAn {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.33px;
+    color: rgb(81, 52, 182);
+}
+
+.bxFNLf {
+    margin: 0px 2px;
+    cursor: pointer;
+    width: 6px;
+    height: 6.176px;
+    border-radius: 15.83px;
+    background-color: var(--Dark-Text-Low-Emphasis, rgba(255, 255, 255, 0.45));
+}
+
+.jTnMJO {
+    background-image: url("https://wallpaperaccess.com/full/3014622.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.evRHWg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2024/8/20/027dfe1b-5244-47f4-b6bb-a33f371a1154_IMG1941d79….JPG);
+    opacity: 6;
+    border-radius: 16px 16px 0px 0px;
+    transition: opacity 0.5s;
+}
+
+.ILwCZ {
+    background-image: url("https://images7.alphacoders.com/350/350913.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.ivDJwj {
+    background-image: url("https://www.architectureartdesigns.com/wp-content/uploads/2016/11/2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.jttoHU {
+    background-image: url("https://assets3.thrillist.com/v1/image/1261341/size/tl-horizontal_main/the-12-best-california-burritos-ranked-by-san-diego-surfers");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.hKOlxJ {
+    background-image: url("https://www.sleepfoundation.org/wp-content/uploads/2021/06/Soda-and-Sleep.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Footer css */
+.social-links {
+    display: inline-block;
+    position: relative;
+    left: 66px;
+    top: -65px;
+}
+
+#underline {
+    position: relative;
+    top: 240px;
+}
+
+.list-items {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#swiggy-limited {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 72px;
+}
+
+.footer-heading {
+    font-size: 16px;
+}
+
+.footer-part {
+    position: absolute;
+    left: 390px;
+}
+
+#company {
+    margin-top: -70px;
+}
+
+#contact {
+    position: absolute;
+    top: -68px;
+    left: 145px;
+}
+
+#legal {
+    position: relative;
+    top: 8px;
+    left: 11px;
+}
+
+#available {
+    position: absolute;
+    top: -68px;
+    left: 290px;
+    text-wrap: nowrap;
+}
+
+#life-at-swiggy {
+    position: relative;
+    top: -170px;
+    left: 186px;
+}
+
+#Swiggy-text {
+    margin-top: 280px;
+    margin-left: 76px;
+    font-weight: bold;
+}
+
+.imgs .img {
+    float: right;
+    height: 50px;
+    width: 130px;
+    margin: 6px;
+    position: relative;
+    top: -50px;
+    right: 190px;
+}
+
+.img:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+/* Responsive mobile-friendly design using CSS  */
+@media(max-width:384px) {
+    .Swiggy-img {
+        height: 25px;
+        margin-left: -52px;
+    }
+
+    #logo {
+        margin-left: -62px;
+        margin-top: 190px;
+        cursor: pointer;
+    }
+
+    .fa-solid {
+        position: absolute;
+        right: 5px;
+        top: 125px;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .search-bar {
+        border-radius: 8px;
+        background-color: rgb(240, 240, 245);
+        padding: 8px 20px;
+        border: none;
+        width: 365px;
+        margin-left: -220px;
+        margin-top: 100px;
+    }
+
+    .precise-location {
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 12px;
+        margin-top: 72px;
+        margin-left: -100px;
+        text-wrap: nowrap;
+    }
+
+    .Account-logo {
+        width: 30px;
+        margin-left: -70px;
+    }
+
+    #horizontal-line {
+        margin-top: -100px;
+        margin-left: 20px;
+        width: 370px;
+    }
+
+    .location-arrow {
+        width: 20px;
+        height: 16px;
+        position: absolute;
+        top: 30%;
+        left: -10%;
+    }
+
+    .img1 {
+        height: 140px;
+        width: 365px;
+        border-radius: 16px;
+        margin-left: -630px;
+        margin-top: 40px;
+    }
+
+    .dyhewv {
+        font-size: 12px;
+        text-wrap: nowrap;
+        line-height: 1.2;
+        height: 100%;
+        font-weight: bold;
+        color: rgb(255, 238, 229);
+        margin-left: -13px;
+        margin-top: 35px;
+    }
+
+    .two-text-items {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -38px;
+        left: -60px;
+    }
+
+    #horizontal-line2 {
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 350px;
+    }
+
+    .list-items-unique {
+        display: grid;
+        grid-template-columns: repeat(4, 80px);
+        gap: 10px;
+        position: absolute;
+        top: 400px;
+        left: -35px;
+    }
+
+    .parent-card {
+        display: grid;
+        grid-template-columns: repeat(1, 150px);
+        grid-template-rows: repeat(3, 295px);
+        row-gap: 100px;
+        margin-left: 41px;
+        position: absolute;
+        top: 520px;
+        left: 0;
+    }
+
+    .Swiggy-text {
+        text-wrap: nowrap;
+        margin-left: 30px;
+        position: relative;
+        top: 3000px;
+        font-size: 15px;
+        text-wrap: nowrap;
+    }
+
+    .Swiggy-element {
+        display: grid;
+        grid-template-columns: repeat(2, 140px);
+        margin-left: -40px;
+        position: relative;
+        top: 3000px;
+    }
+
+    .Swiggy-boxes {
+        height: 50px;
+        width: 130px;
+        text-wrap: wrap;
+    }
+
+    .form-select {
+        font-size: 15px;
+        width: 131px;
+    }
+
+    .box-content {
+        position: absolute;
+        top: 3950px;
+        width: 400px;
+    }
+
+    .box-para {
+        text-wrap: wrap;
+    }
+
+    #Swiggy-info {
+        text-wrap: wrap;
+    }
+
+    .Swiggy-box {
+        height: 350px;
+        position: relative;
+        bottom: 520px;
+    }
+
+    .getSwiggyapp {
+        display: none;
+    }
+
+    #pibabu {
+        margin-top: -200px;
+    }
+
+    #underline {
+        width: 340px;
+        color: #000;
+        margin-left: 10px;
+        margin-top: 520px;
+    }
+
+    .footer-container-fluid {
+        height: 170vh;
+        position: relative;
+        top: 3000px;
+        width: 360px;
+    }
+
+    #company {
+        margin-top: 20px;
+        margin-left: -430px;
+        text-wrap: nowrap;
+    }
+
+    #contact {
+        position: absolute;
+        top: 22px;
+        left: -220px;
+    }
+
+    #legal {
+        top: 180px;
+        left: -135px;
+        text-wrap: nowrap;
+    }
+
+    #available {
+        top: 350px;
+        left: -220px;
+    }
+
+    #life-at-swiggy {
+        top: 410px;
+        left: -240px;
+    }
+
+    .footer-heading {
+        text-wrap: nowrap;
+    }
+
+    .social-links {
+        top: 330px;
+        left: -140px;
+        text-wrap: nowrap;
+    }
+
+    #Swiggy-text {
+        font-size: 12px;
+        text-wrap: nowrap;
+        color: rgb(99, 97, 97);
+        margin-left: -10px;
+    }
+
+    #underline {
+        width: 340px;
+        color: #000;
+        margin-left: -40px;
+        margin-top: 520px;
+    }
+
+    .imgs {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 1020px;
+        left: 71%;
+        transform: translate(-50px, -50px);
+    }
+
+    .Swiggy-img {
+        height: 30px;
+        margin-left: -20px;
+    }
+
+    #swiggy-limited {
+        font-size: 14px;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
+}

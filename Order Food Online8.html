@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Order Food Online In Pune</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Order Food Online8.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Header starts here -->
+    <div class="container-fluid">
+        <header>
+            <nav class="diningOut-header">
+                <ul>
+                    <img alt="" class="Swiggy-img mt-3" loading="lazy"
+                        src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg" id="logo" />
+                </ul>
+                <ul class="set">
+                    <div class="location-arrow mx-1"><svg width="100%" height="100%" viewBox="0 0 16 17" fill="#FF5200"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.1828 1.84246C13.7623 0.516285 15.0521 -0.146802 15.6759 0.448004C16.2997 1.04281 15.6986 2.36264 14.4965 5.00231L11.0318 12.6101C9.78188 15.3547 9.15692 16.727 8.28744 16.6338C7.41796 16.5407 7.09629 15.0596 6.45294 12.0973C6.29606 11.375 6.21761 11.0138 5.97533 10.7649C5.73305 10.5161 5.37563 10.4285 4.6608 10.2532L4.29783 10.1642C1.65419 9.51589 0.332363 9.19175 0.234059 8.35677C0.135754 7.52179 1.34615 6.89952 3.76695 5.65497L11.1828 1.84246Z"
+                                fill="#FF5200"></path>
+                        </svg>
+                    </div>
+                    <div class="precise-location">Setup your precise location</div>
+                </ul>
+                <ul>
+                    <div data-testid="header_search_bar" class="search-1 mt-2">
+                        <div class="search-2"><button type="button" class="search-bar">
+                                <div class="search-3">
+                                    <div class="search-text text-secondary">Search for restaurant and food <i
+                                            class="fa-solid fa-magnifying-glass"></i>
+                                        <div>
+                                        </div>
+                            </button><svg aria-hidden="true" height="20" width="20"
+                                style="position:absolute;top:16px;right:16px;width:18px;height:18px"
+                                class="sc-iBdmCd jkDhNj">
+                                <use xlink:href="/core/sprite-mpK4HJSO.svg#search20"></use>
+                            </svg></div>
+                    </div>
+                </ul>
+                <ul>
+                    <div data-testid="header_my_account" class="Account-logo mt-3"><svg viewBox="0 0 32 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" id="account">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.6097 9.51178C14.1071 9.51178 15.3202 8.33063 15.3202 6.87364C15.3202 5.41747 14.1071 4.23633 12.6097 4.23633C11.1132 4.23633 9.89924 5.41747 9.89924 6.87364C9.89924 8.33063 11.1132 9.51178 12.6097 9.51178ZM6.63407 15.4005C7.41896 12.9149 9.79771 11.1071 12.6091 11.1071C15.422 11.1071 17.7998 12.9149 18.5842 15.4005C18.8042 16.0974 18.9142 16.4459 18.6422 16.8169C18.3702 17.188 17.9279 17.188 17.0434 17.188H8.17479C7.29023 17.188 6.84795 17.188 6.57597 16.8169C6.304 16.4458 6.41402 16.0974 6.63407 15.4005Z"
+                                fill="#43464A"></path>
+                            <path
+                                d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z"
+                                fill="#43464A"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.36 14.2184C18.4089 14.2184 20.0688 12.6022 20.0688 10.6086C20.0688 8.61615 18.4089 7 16.36 7C14.3123 7 12.6513 8.61615 12.6513 10.6086C12.6513 12.6022 14.3123 14.2184 16.36 14.2184ZM8.18351 22.2763C9.25748 18.8752 12.5123 16.4017 16.3591 16.4017C20.208 16.4017 23.4615 18.8752 24.5349 22.2762C24.8359 23.2298 24.9863 23.7066 24.6142 24.2143C24.242 24.722 23.6369 24.722 22.4265 24.722H10.2917C9.08134 24.722 8.47617 24.722 8.10403 24.2143C7.73188 23.7065 7.88242 23.2297 8.18351 22.2763Z"
+                                fill="white"></path>
+                        </svg></div>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- Header ends here -->
+
+    <hr id="horizontal-line" />
+    <div class="StyleWrapper__Main-sc-10ym97a-3 klWrLQ">
+        <div>
+            <div data-testid="mast_header" class="MastHeader__ImgContainer-sc-1psnc2k-0 kglgaR"><img
+                    class="sc-guDLRT img1 MastHeader__Img-sc-1psnc2k-1 gWjuiB"
+                    src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/Food_collectionbanner.png"
+                    alt="Order Food Online in Pune">
+                <div class="MastHeader__TextOverlay-sc-1psnc2k-2 bljDBE">
+                    <h1 class="MastHeader__TextDweb-sc-1psnc2k-3 dyhewv">Order Food Online in Pune</h1>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <ul class="two-text-items">
+            <li class="nav-item">
+                <a class="nav-link order" aria-current="page" href="#">Order Online</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active dineout" aria-current="page" href="/Dining Out Restaurants8.html">Dineout</a>
+            </li>
+            <hr id="horizontal-line2" class="mx-5" />
+            <div class="colororange">
+                <!-- color orange will be displayed -->
+            </div>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h5 class="text-content my-3">Restaurants with online food delivery in Pune</h5>
+        <ul class="list-items-unique">
+            <li class="text-details fw-bold" id="filter">Filter <i class="ri-equalizer-2-line float-end"></i></li>
+            <li class="text-details fw-bold" id="sortby">Sort By <i class="ri-arrow-down-s-line float-end"></i></li>
+            <li class="text-details fw-bold">Fast Delivery</li>
+            <li class="text-details fw-bold" id="new">New on Swiggy</li>
+            <li class="text-details fw-bold">Rating 4.0+</li>
+            <li class="text-details fw-bold">Pure Veg</li>
+            <li class="text-details fw-bold" id="serves">Serves Alcohol</li>
+            <li class="text-details fw-bold" id="offers">Offers</li>
+            <li class="text-details fw-bold" id="less-than">Less than Rs.300</li>
+        </ul>
+
+        <div class="container-body">
+            <div data-testid="restaurant_list_card"><a
+                    href="https://www.swiggy.com/city/Pune/theobroma-lavelle-road-ashok-nagar-rest426730"
+                    class="RestaurantList__RestaurantAnchor-sc-1d3nl43-3 kcEtBq">
+                    <div class="styled__StyledRestaurantGridCard-sc-fcg6mi-0 lgOeYp">
+                        <div class="sc-irLwvL PYGjt">
+                            <div class="sc-csKIKE iYkVW">
+                                <div width="100%" height="100%" class="sc-jsEegt cTubCD"><img class="sc-guDLRT Card1"
+                                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/716267c7-7871-4d9d-ac71-ddb40ac6744d_426730.jpg"
+                                        alt="Theobroma">
+                                    <div class="sc-fsYeqs cPiOEf sc-kFCsca evZgOZ">
+                                        <div class="sc-beySbM ggxzNV sc-qZqnM dSTtWe"></div>
+                                        <div class="sc-beySbM lnKOIC sc-qZqnM dSTtWe"> 20% OFF </div>
+                                        <div class="sc-beySbM iJUqJk sc-qZqnM dSTtWe"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div>
+                                <div class="sc-beySbM eLaouz mx-5">Theobroma</div>
+                            </div>
+                            <div class="sw-restaurant-card-subtext-container mx-5">
+                                <div style="margin-top:-2px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        aria-hidden="true" strokecolor="rgba(2, 6, 12, 0.92)"
+                                        fillcolor="rgba(2, 6, 12, 0.92)">
+                                        <circle cx="10" cy="10" r="9"
+                                            fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"></circle>
+                                        <path
+                                            d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                            fill="white"></path>
+                                        <defs>
+                                            <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10"
+                                                y1="1" x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#21973B"></stop>
+                                                <stop offset="1" stop-color="#128540"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg></div>
+                                <div style="margin-top:-4px" class="sc-beySbM hhnNfO"><span
+                                        class="sc-beySbM kLuhdW">4.7<!-- --> • </span>40-45 mins</div>
+                            </div>
+                            <div class="sw-restaurant-card-descriptions-container">
+                                <div class="sc-beySbM bfOHNR mx-5">Desserts, Bakery</div>
+                                <div class="sc-beySbM bfOHNR mx-5">Ashok Nagar</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div></div>
+            </div>
+
+            <div data-testid="restaurant_list_card"><a
+                    href="https://www.swiggy.com/city/Pune/pizza-hut-vani-vilas-road-basavanagudi-rest10892"
+                    class="RestaurantList__RestaurantAnchor-sc-1d3nl43-3 kcEtBq">
+                    <div class="styled__StyledRestaurantGridCard-sc-fcg6mi-0 lgOeYp">
+                        <div class="sc-irLwvL PYGjt">
+                            <div class="sc-csKIKE iYkVW">
+                                <div width="100%" height="100%" class="sc-jsEegt cTubCD"><img class="Card2"
+                                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/66321940-0e9c-463c-ac18-b0b22355f284_10892.jpg"
+                                        alt="Pizza Hut">
+                                    <div class="sc-fsYeqs cPiOEf sc-kFCsca evZgOZ">
+                                        <div class="sc-beySbM ggxzNV sc-qZqnM dSTtWe"></div>
+                                        <div class="sc-beySbM lnKOIC sc-qZqnM dSTtWe"> ITEMS AT ₹189</div>
+                                        <div class="sc-beySbM iJUqJk sc-qZqnM dSTtWe"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content2">
+                            <div>
+                                <div class="sc-beySbM eLaouz">Pizza Hut</div>
+                            </div>
+                            <div class="sw-restaurant-card-subtext-container">
+                                <div style="margin-top:-2px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        aria-hidden="true" strokecolor="rgba(2, 6, 12, 0.92)"
+                                        fillcolor="rgba(2, 6, 12, 0.92)">
+                                        <circle cx="10" cy="10" r="9"
+                                            fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"></circle>
+                                        <path
+                                            d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                            fill="white"></path>
+                                        <defs>
+                                            <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10"
+                                                y1="1" x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#21973B"></stop>
+                                                <stop offset="1" stop-color="#128540"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg></div>
+                                <div style="margin-top:-4px" class="sc-beySbM hhnNfO"><span
+                                        class="sc-beySbM kLuhdW">4.3<!-- --> • </span>30-35 mins</div>
+                            </div>
+                            <div class="sw-restaurant-card-descriptions-container">
+                                <div class="sc-beySbM bfOHNR">Pizzas</div>
+                                <div class="sc-beySbM bfOHNR">Basavanagudi</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div></div>
+            </div>
+
+            <div data-testid="restaurant_list_card"><a
+                    href="https://www.swiggy.com/city/Pune/kfc-basavanagudi-rest17301"
+                    class="RestaurantList__RestaurantAnchor-sc-1d3nl43-3 kcEtBq">
+                    <div class="styled__StyledRestaurantGridCard-sc-fcg6mi-0 lgOeYp">
+                        <div class="sc-irLwvL PYGjt">
+                            <div class="sc-csKIKE iYkVW">
+                                <div width="100%" height="100%" class="sc-jsEegt cTubCD"><img class="Card1"
+                                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/5bfe1062-dbda-4cea-962f-ecd60a1d1764_17301.JPG"
+                                        alt="KFC">
+                                    <div class="sc-fsYeqs cPiOEf sc-kFCsca evZgOZ">
+                                        <div class="sc-beySbM ggxzNV sc-qZqnM dSTtWe"></div>
+                                        <div class="sc-beySbM lnKOIC sc-qZqnM dSTtWe"> ITEMS AT ₹59</div>
+                                        <div class="sc-beySbM iJUqJk sc-qZqnM dSTtWe"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content3">
+                            <div>
+                                <div class="sc-beySbM eLaouz">KFC</div>
+                            </div>
+                            <div class="sw-restaurant-card-subtext-container">
+                                <div style="margin-top:-2px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        aria-hidden="true" strokecolor="rgba(2, 6, 12, 0.92)"
+                                        fillcolor="rgba(2, 6, 12, 0.92)">
+                                        <circle cx="10" cy="10" r="9"
+                                            fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"></circle>
+                                        <path
+                                            d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                            fill="white"></path>
+                                        <defs>
+                                            <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10"
+                                                y1="1" x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#21973B"></stop>
+                                                <stop offset="1" stop-color="#128540"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg></div>
+                                <div style="margin-top:-4px" class="sc-beySbM hhnNfO"><span
+                                        class="sc-beySbM kLuhdW">4.3<!-- --> • </span>25-30 mins</div>
+                            </div>
+                            <div class="sw-restaurant-card-descriptions-container">
+                                <div class="sc-beySbM bfOHNR">Burgers, Fast Food, Rolls &amp; Wraps</div>
+                                <div class="sc-beySbM bfOHNR">Basavanagudi</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div></div>
+            </div>
+
+            <div data-testid="restaurant_list_card"><a
+                    href="https://www.swiggy.com/city/Pune/chinese-wok-3rd-stage-banashankari-rest394084"
+                    class="RestaurantList__RestaurantAnchor-sc-1d3nl43-3 kcEtBq">
+                    <div class="styled__StyledRestaurantGridCard-sc-fcg6mi-0 lgOeYp mt-4">
+                        <div class="sc-irLwvL PYGjt">
+                            <div class="sc-csKIKE iYkVW">
+                                <div width="100%" height="100%" class="sc-jsEegt cTubCD"><img class="Card1"
+                                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/e0839ff574213e6f35b3899ebf1fc597"
+                                        alt="Chinese Wok">
+                                    <div class="sc-fsYeqs cPiOEf sc-kFCsca evZgOZ">
+                                        <div class="sc-beySbM ggxzNV sc-qZqnM dSTtWe"></div>
+                                        <div class="sc-beySbM lnKOIC sc-qZqnM dSTtWe"> ITEMS AT ₹129</div>
+                                        <div class="sc-beySbM iJUqJk sc-qZqnM dSTtWe"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content4">
+                            <div>
+                                <div class="sc-beySbM eLaouz">Chinese Wok</div>
+                            </div>
+                            <div class="sw-restaurant-card-subtext-container">
+                                <div style="margin-top:-2px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        aria-hidden="true" strokecolor="rgba(2, 6, 12, 0.92)"
+                                        fillcolor="rgba(2, 6, 12, 0.92)">
+                                        <circle cx="10" cy="10" r="9"
+                                            fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"></circle>
+                                        <path
+                                            d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                            fill="white"></path>
+                                        <defs>
+                                            <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10"
+                                                y1="1" x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#21973B"></stop>
+                                                <stop offset="1" stop-color="#128540"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg></div>
+                                <div style="margin-top:-4px" class="sc-beySbM hhnNfO"><span
+                                        class="sc-beySbM kLuhdW">4.3<!-- --> • </span>45-50 mins</div>
+                            </div>
+                            <div class="sw-restaurant-card-descriptions-container">
+                                <div class="sc-beySbM bfOHNR">Chinese, Asian, Tibetan, Desserts</div>
+                                <div class="sc-beySbM bfOHNR">Banashankari</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div></div>
+            </div>
+
+            <div data-testid="restaurant_list_card"><a
+                    href="https://www.swiggy.com/city/Pune/wendys-burgers-kmk-towers-central-Pune-rest396753"
+                    class="RestaurantList__RestaurantAnchor-sc-1d3nl43-3 kcEtBq">
+                    <div class="styled__StyledRestaurantGridCard-sc-fcg6mi-0 lgOeYp mt-4">
+                        <div class="sc-irLwvL PYGjt">
+                            <div class="sc-csKIKE iYkVW">
+                                <div width="100%" height="100%" class="sc-jsEegt cTubCD"><img class="Card1"
+                                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/1/11/4cf1123e-f4c0-402e-8ed3-c13c5072588b_396753.JPG"
+                                        alt="Wendy's Burgers">
+                                    <div class="sc-fsYeqs cPiOEf sc-kFCsca evZgOZ">
+                                        <div class="sc-beySbM ggxzNV sc-qZqnM dSTtWe"></div>
+                                        <div class="sc-beySbM lnKOIC sc-qZqnM dSTtWe"> 30% OFF UPTO ₹75</div>
+                                        <div class="sc-beySbM iJUqJk sc-qZqnM dSTtWe"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content5">
+                            <div>
+                                <div class="sc-beySbM eLaouz">Wendy's Burgers</div>
+                            </div>
+                            <div class="sw-restaurant-card-subtext-container">
+                                <div style="margin-top:-2px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        aria-hidden="true" strokecolor="rgba(2, 6, 12, 0.92)"
+                                        fillcolor="rgba(2, 6, 12, 0.92)">
+                                        <circle cx="10" cy="10" r="9"
+                                            fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"></circle>
+                                        <path
+                                            d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                            fill="white"></path>
+                                        <defs>
+                                            <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10"
+                                                y1="1" x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#21973B"></stop>
+                                                <stop offset="1" stop-color="#128540"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg></div>
+                                <div style="margin-top:-4px" class="sc-beySbM hhnNfO"><span
+                                        class="sc-beySbM kLuhdW">4.3<!-- --> • </span>30-35 mins</div>
+                            </div>
+                            <div class="sw-restaurant-card-descriptions-container">
+                                <div class="sc-beySbM bfOHNR">Burgers, American, Fast Food, Snacks</div>
+                                <div class="sc-beySbM bfOHNR">Central Pune</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div></div>
+            </div>
+
+            <div data-testid="restaurant_list_card"><a
+                    href="https://www.swiggy.com/city/Pune/mad-over-donuts-rv-road-basavanagudi-rest470494"
+                    class="RestaurantList__RestaurantAnchor-sc-1d3nl43-3 kcEtBq">
+                    <div class="styled__StyledRestaurantGridCard-sc-fcg6mi-0 lgOeYp mt-4">
+                        <div class="sc-irLwvL PYGjt">
+                            <div class="sc-csKIKE iYkVW">
+                                <div width="100%" height="100%" class="sc-jsEegt cTubCD"><img class="Card1"
+                                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/2/24/37d8167c-2791-48e3-969c-a92446642047_470494.jpg"
+                                        alt="Mad Over Donuts">
+                                    <div class="sc-fsYeqs cPiOEf sc-kFCsca evZgOZ">
+                                        <div class="sc-beySbM ggxzNV sc-qZqnM dSTtWe"></div>
+                                        <div class="sc-beySbM lnKOIC sc-qZqnM dSTtWe"> 50% OFF UPTO ₹100</div>
+                                        <div class="sc-beySbM iJUqJk sc-qZqnM dSTtWe"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content5">
+                            <div>
+                                <div class="sc-beySbM eLaouz">Mad Over Donuts</div>
+                            </div>
+                            <div class="sw-restaurant-card-subtext-container">
+                                <div style="margin-top:-2px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        aria-hidden="true" strokecolor="rgba(2, 6, 12, 0.92)"
+                                        fillcolor="rgba(2, 6, 12, 0.92)">
+                                        <circle cx="10" cy="10" r="9"
+                                            fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"></circle>
+                                        <path
+                                            d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                            fill="white"></path>
+                                        <defs>
+                                            <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10"
+                                                y1="1" x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#21973B"></stop>
+                                                <stop offset="1" stop-color="#128540"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg></div>
+                                <div style="margin-top:-4px" class="sc-beySbM hhnNfO"><span
+                                        class="sc-beySbM kLuhdW">4.3<!-- --> • </span>35-40 mins</div>
+                            </div>
+                            <div class="sw-restaurant-card-descriptions-container">
+                                <div class="sc-beySbM bfOHNR">Desserts</div>
+                                <div class="sc-beySbM bfOHNR">Basavanagudi</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div></div>
+            </div>
+
+            <div data-testid="restaurant_list_card"><a
+                    href="https://www.swiggy.com/city/Pune/wow-momo-near-shanti-nagar-bus-stop-shantinagar-rest788303"
+                    class="RestaurantList__RestaurantAnchor-sc-1d3nl43-3 kcEtBq">
+                    <div class="styled__StyledRestaurantGridCard-sc-fcg6mi-0 lgOeYp mt-5">
+                        <div class="sc-irLwvL PYGjt">
+                            <div class="sc-csKIKE iYkVW">
+                                <div width="100%" height="100%" class="sc-jsEegt cTubCD"><img class="Card1"
+                                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/4/21/e065d03a-ab9a-46bd-b373-e02e1d6658a4_788303.jpg"
+                                        alt="Wow! Momo">
+                                    <div class="sc-fsYeqs cPiOEf sc-kFCsca evZgOZ">
+                                        <div class="sc-beySbM ggxzNV sc-qZqnM dSTtWe"></div>
+                                        <div class="sc-beySbM lnKOIC sc-qZqnM dSTtWe"> ITEMS AT ₹99</div>
+                                        <div class="sc-beySbM iJUqJk sc-qZqnM dSTtWe"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content5">
+                            <div>
+                                <div class="sc-beySbM eLaouz">Wow! Momo</div>
+                            </div>
+                            <div class="sw-restaurant-card-subtext-container">
+                                <div style="margin-top:-2px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        aria-hidden="true" strokecolor="rgba(2, 6, 12, 0.92)"
+                                        fillcolor="rgba(2, 6, 12, 0.92)">
+                                        <circle cx="10" cy="10" r="9"
+                                            fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"></circle>
+                                        <path
+                                            d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                            fill="white"></path>
+                                        <defs>
+                                            <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10"
+                                                y1="1" x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#21973B"></stop>
+                                                <stop offset="1" stop-color="#128540"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg></div>
+                                <div style="margin-top:-4px" class="sc-beySbM hhnNfO"><span
+                                        class="sc-beySbM kLuhdW">4.3<!-- --> • </span>35-40 mins</div>
+                            </div>
+                            <div class="sw-restaurant-card-descriptions-container">
+                                <div class="sc-beySbM bfOHNR">Momos, Chinese, fastfood, Asian, Beverages</div>
+                                <div class="sc-beySbM bfOHNR">Shantinagar</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div></div>
+            </div>
+
+            <div data-testid="restaurant_list_card"><a
+                    href="https://www.swiggy.com/city/Pune/meghana-foods-jayanagar-rest655"
+                    class="RestaurantList__RestaurantAnchor-sc-1d3nl43-3 kcEtBq">
+                    <div class="styled__StyledRestaurantGridCard-sc-fcg6mi-0 lgOeYp mt-5">
+                        <div class="sc-irLwvL PYGjt">
+                            <div class="sc-csKIKE iYkVW">
+                                <div width="100%" height="100%" class="sc-jsEegt cTubCD"><img class="Card1"
+                                        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/x4uyxvihmg8qa3pddkgf"
+                                        alt="Meghana Foods">
+                                    <div class="sc-fsYeqs cPiOEf sc-kFCsca evZgOZ">
+                                        <div class="sc-beySbM ggxzNV sc-qZqnM dSTtWe"></div>
+                                        <div class="sc-beySbM lnKOIC sc-qZqnM dSTtWe"> </div>
+                                        <div class="sc-beySbM iJUqJk sc-qZqnM dSTtWe"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content5 mt-3">
+                            <div>
+                                <div class="sc-beySbM eLaouz">Meghana Foods</div>
+                            </div>
+                            <div class="sw-restaurant-card-subtext-container">
+                                <div style="margin-top:-2px"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        aria-hidden="true" strokecolor="rgba(2, 6, 12, 0.92)"
+                                        fillcolor="rgba(2, 6, 12, 0.92)">
+                                        <circle cx="10" cy="10" r="9"
+                                            fill="url(#StoreRating20_svg__paint0_linear_32982_71567)"></circle>
+                                        <path
+                                            d="M10.0816 12.865C10.0312 12.8353 9.96876 12.8353 9.91839 12.865L7.31647 14.3968C6.93482 14.6214 6.47106 14.2757 6.57745 13.8458L7.27568 11.0245C7.29055 10.9644 7.26965 10.9012 7.22195 10.8618L4.95521 8.99028C4.60833 8.70388 4.78653 8.14085 5.23502 8.10619L8.23448 7.87442C8.29403 7.86982 8.34612 7.83261 8.36979 7.77777L9.54092 5.06385C9.71462 4.66132 10.2854 4.66132 10.4591 5.06385L11.6302 7.77777C11.6539 7.83261 11.706 7.86982 11.7655 7.87442L14.765 8.10619C15.2135 8.14085 15.3917 8.70388 15.0448 8.99028L12.7781 10.8618C12.7303 10.9012 12.7095 10.9644 12.7243 11.0245L13.4225 13.8458C13.5289 14.2757 13.0652 14.6214 12.6835 14.3968L10.0816 12.865Z"
+                                            fill="white"></path>
+                                        <defs>
+                                            <linearGradient id="StoreRating20_svg__paint0_linear_32982_71567" x1="10"
+                                                y1="1" x2="10" y2="19" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#21973B"></stop>
+                                                <stop offset="1" stop-color="#128540"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg></div>
+                                <div style="margin-top:-4px" class="sc-beySbM hhnNfO"><span
+                                        class="sc-beySbM kLuhdW">4.6<!-- --> • </span>30-35 mins</div>
+                            </div>
+                            <div class="sw-restaurant-card-descriptions-container">
+                                <div class="sc-beySbM bfOHNR">Biryani, Andhra, South Indian, Chinese, Seafood</div>
+                                <div class="sc-beySbM bfOHNR">Jayanagar</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container box-content">
+        <h4 id="text-content" class="mx-2">Food culture in Pune</h4>
+        <div class="Swiggy-box">
+            <h4 class="text-secondary mt-3 mx-3 textpara">Reasons to Order Food Online in Pune via Swiggy</h4>
+            <p id="Swiggy-info"> Pune, the IT hub of the country, is the city that is a home to millions of young
+                techies staying far away from their homes. If you are also one of those, who does not have a proper
+                functional kitchen, you can understand the pain of missing out on your favourite food.Imagine one day
+                you are having a hectic day at work, and suddenly you find its lunchtime. The rats have already started
+                growling in your stomach as it’s already Food O’clock, but you can’t visit the food court due to your
+                ongoing work<span id="dots">......</span><span id="morepara"></span>
+                <button type="button" aria-label="Click here to know more" class="seemore">
+                    <div class="sc-beySbM hsKxKP sc-egTteO kLmtac" id="seemore">See more</div>
+                </button>
+        </div>
+    </div>
+
+    <!-- Get the Swiggy app Now. -->
+    <div class="getSwiggyapp mt-5">
+        <img alt="Get the Swiggy App banner" style="object-fit:contain;height:100%;width:100%"
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/App_download_banner.png"
+            class="imgs9">
+    </div>
+
+    <div class="container-fluid2">
+        <section>
+            <h6 class="Swiggy-text mt-5">Explore localities in and around Pune</h6>
+            <div class="Swiggy-element">
+                <div class="Swiggy-boxes"><a href="#">Thergoan</a></div>
+                <div class="Swiggy-boxes"><a href="#">Khadakwal</a></div>
+                <div class="Swiggy-boxes"><a href="#">Ghotondi</a></div>
+                <div class="Swiggy-boxes"><a href="#">Varye Bk</a></div>
+                <div class="Swiggy-boxes"><a href="#">Kolwadi</a></div>
+                <div class="Swiggy-boxes"><a href="#">Sonari</a></div>
+                <div class="Swiggy-boxes"><a href="#">Vadattur</a></div>
+                <div class="Swiggy-boxes"><a href="#">Kanhur</a></div>
+                <div class="Swiggy-boxes"><a href="#">Shiroli</a></div>
+                <div class="Swiggy-boxes"><a href="#">Muthe</a></div>
+                <div class="Swiggy-boxes"><a href="#">Urse</a></div>
+                <select class="form-select Swiggy-boxes" aria-label="select example" id="Show-More">
+                    <option>Show More</option>
+                </select>
+                <span id="cities">
+                    <!-- Locatily will be displayed here, when Show More is clicked -->
+                </span>
+            </div>
+            <div class="Swiggy-element" id="Unique-work">
+                <!-- More localities will be displayed here, when Show More is clicked -->
+            </div>
+        </section>
+    </div>
+
+    <div class="container-fluid2">
+        <section>
+            <h6 class="Swiggy-text mt-5">Order Popular Dishes Online in Pune</h6>
+            <div class="Swiggy-element">
+                <div class="Swiggy-boxes"><a href="#">Samosa</a></div>
+                <div class="Swiggy-boxes"><a href="#">Kaju Katli</a></div>
+                <div class="Swiggy-boxes"><a href="#">Kulcha</a></div>
+                <div class="Swiggy-boxes"><a href="#">Egg Fried Rice</a></div>
+                <div class="Swiggy-boxes"><a href="#">Fries</a></div>
+                <div class="Swiggy-boxes"><a href="#">Dosa</a></div>
+                <div class="Swiggy-boxes"><a href="#">Gobi</a></div>
+                <div class="Swiggy-boxes"><a href="#">Momos</a></div>
+                <div class="Swiggy-boxes"><a href="#">Idli</a></div>
+                <div class="Swiggy-boxes"><a href="#">Veg Meals</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bhaji</a></div>
+                <select class="form-select Swiggy-boxes" aria-label="select example" id="Show-More2">
+                    <option>Show More</option>
+                </select>
+                <span id="grocery-items">
+                    <!-- grocery delivery will be displayed here, when Show More is clicked -->
+                </span>
+            </div>
+            <div class="Swiggy-element" id="Unique-work2">
+                <!-- Top Cuisine in city will be displayed here, when Show More is clicked -->
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container-fluid2">
+        <section>
+            <h6 class="Swiggy-text mt-5">More Food Options Near Me</h6>
+            <div class="Swiggy-element">
+                <div class="Swiggy-boxes"><a href="#">American Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Andra Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Asian Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Arabian Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Awadhi Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">BBQ Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bakery Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bar Food Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bengali Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Biryani Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Greek Restaurants near me</a></div>
+                <select class="form-select Swiggy-boxes" aria-label="select example" id="Show-More3">
+                    <option>Show More</option>
+                </select>
+                <span id="nearme">
+                    <!-- city will be displayed here, when Show More is clicked -->
+                </span>
+            </div>
+            <div class="Swiggy-element" id="Unique-work6">
+                <!-- More Cuisine will be displayed here, when Show More is clicked -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer starts here -->
+    <div class="footer-container-fluid mt-5 mx-5">
+        <footer>
+            <div class="container">
+                <img alt="" class="Swiggy-img mt-4" loading="lazy"
+                    src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg">
+                <p id="swiggy-limited">&#169; 2025 Swiggy Limited</p>
+                <div class="footer-part">
+                    <ul class="list-items" id="company">
+                        <h4 class="footer-heading">Company</h4>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Swiggy corporate</a></li>
+                        <li><a href="#">Carrers</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Swiggy One</a></li>
+                        <li><a href="#">Swiggy Instamart</a></li>
+                        <li><a href="#">Swiggy Dineout</a></li>
+                        <li><a href="#">Swiggy Genie</a></li>
+                        <li><a href="#">Minis</a></li>
+                        <li><a href="#">Pyng</a></li>
+                    </ul>
+                    <ul class="list-items" id="contact">
+                        <h4 class="footer-heading">Contact us</h4>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Partner With Us</a></li>
+                        <li><a href="#">Ride With Us</a></li>
+                    </ul>
+                    <ul class="list-items" id="legal">
+                        <h4 class="footer-heading">Legal</h4>
+                        <li><a href="#">Terms & <br /> Conditions</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="list-items" id="available">
+                        <h4 class="footer-heading">Available in:</h4>
+                        <li><a href="#">Bangalore</a></li>
+                        <li><a href="#">Gurgaon</a></li>
+                        <li><a href="#">Hyderabad</a></li>
+                        <li><a href="#">Mumbai</a></li>
+                        <li><a href="#">Pune</a></li>
+                        <li><a href="#">Pune</a></li>
+                    </ul>
+                    <ul class="list-items" id="life-at-swiggy">
+                        <h4 class="footer-heading">Life at Swiggy</h4>
+                        <li><a href="#">Explore With Swiggy</a></li>
+                        <li><a href="#">Swiggy News</a></li>
+                        <li><a href="#">Snackables</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <h4 class="footer-heading">Social Links</h4>
+                        <a href="https://www.linkedin.com/company/swiggy-in/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/swiggyindia/?hl=en"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/swiggy.in/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-paypal"></i></a>
+                        <a href="https://twitter.com/Swiggy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <hr id="underline" />
+                <div>
+                    <h5 id="Swiggy-text">For better experience,download the Swiggy app now</h5>
+                    <span class="imgs">
+                        <a href="#"><img alt=""
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-GooglePlay_1_zixjxl"
+                                height="65" width="200" class="img"></a>
+                        <a href="#"><img alt=""
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-AppStore_lg30tv"
+                                height="65" width="200" class="img"></a>
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer ends here -->
+
+
+    <script src="/Order Food Online8.js"></script>
+</body>
+
+</html>

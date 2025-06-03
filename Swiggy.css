@@ -1,0 +1,867 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav-bar {
+    background-color: #ff5200;
+    height: 50px;
+}
+
+.nav-items {
+    display: flex;
+    margin-left: 40px;
+}
+
+.Swiggy-logo {
+    height: 39px;
+    width: 135px;
+    margin-left: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.main-nav-items {
+    list-style: none;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 13px;
+    position: relative;
+    top: 25px;
+    left: 380px;
+    font-family: cursive;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#getApp {
+    color: white;
+    border: 1px solid white;
+    background-color: #ff5200;
+    cursor: pointer;
+    border-radius: 10px;
+    text-wrap: nowrap;
+    place-items: center;
+    width: 110px;
+    margin-left: 160px;
+    font-size: 12px;
+    text-align: start;
+}
+
+.Arrowicon {
+    transform: rotate(-45deg);
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    left: 82px;
+}
+
+#signin {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.btn {
+    width: 100px;
+    position: relative;
+    left: 220px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.left-img {
+    height: 360px;
+    width: 165px;
+    margin-top: -50px;
+}
+
+.right-img {
+    height: 360px;
+    width: 175px;
+    float: right;
+    margin-top: -50px;
+}
+
+#heading {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 85px;
+    color: white;
+    font-size: 30px;
+    margin-left: -25px;
+}
+
+.parentelem {
+    background-color: #ff5200;
+}
+
+.delivery-location {
+    padding: 12px 25px;
+    border-radius: 10px;
+}
+
+.cKeKTN {
+    width: 100%;
+    height: 100%;
+}
+
+.mZRJW {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.gsiCGh {
+    width: 100%;
+    height: 241px;
+    position: relative;
+    top: -115px;
+    object-fit: contain;
+}
+
+img {
+    border-style: none;
+}
+
+.special-cards {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+
+._22e_H {
+    position: absolute;
+    top: 200px;
+    left: 260px;
+}
+
+.path {
+    position: absolute;
+    top: 17px;
+    left: 210px;
+    height: 15px;
+}
+
+._1LZf8 {
+    font-size: 14px;
+    border-radius: 11px;
+    border: none;
+    width: 240px;
+    padding: 12px 35px;
+}
+
+.location {
+    position: absolute;
+    top: 14px;
+    left: 8px;
+    height: 18px;
+}
+
+.cuyBeN {
+    position: absolute;
+    top: 249px;
+    left: 540px;
+    border-radius: 10px;
+    width: 330px;
+    background-color: white;
+    padding: 10px 14px;
+    color: #444040;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 265px;
+    font-size: 14px;
+    left: 835px;
+}
+
+
+._carousel-parent {
+    display: grid;
+    grid-template-columns: repeat(5, 230px);
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 92px;
+    cursor: pointer;
+}
+
+.content-part {
+    display: flex;
+    gap: 22px;
+    margin-left: 70px;
+}
+
+.jwuiun {
+    height: 140px;
+    width: 130px;
+}
+
+._carousel-items2 {
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.Shop-groceries {
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.dfNLup {
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+}
+
+
+/* Cards */
+.parent-card {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    grid-template-rows: repeat(2, 235px);
+    gap: 80px;
+    margin-left: 85px;
+}
+
+.kwChQP {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 172px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    border-radius: 16px;
+}
+
+.iFfhgL {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 50px);
+    border-radius: 16px;
+}
+
+.kGTuBe {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.iyTBvp {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 50px;
+    padding: 16px 12px 12px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.dnBtAy {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgb(255, 255, 255);
+}
+
+.BEWkR {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.33px;
+    color: rgba(2, 6, 12, 0.6);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-box-orient: vertical;
+}
+
+.hrKRzt {
+    white-space: nowrap;
+    color: grey;
+}
+
+.kXTeQG {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.35px;
+    color: rgb(255, 255, 255);
+}
+
+.xHmzd {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgb(27, 166, 114);
+}
+
+.kiKeAn {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.33px;
+    color: rgb(81, 52, 182);
+}
+
+.UoGwL {
+    padding-top: 10px;
+}
+
+.jjXWUL {
+    display: flex;
+    gap: 4px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.bXcPtu {
+    border-radius: 8px;
+    background: rgb(27, 166, 114);
+    height: 28px;
+    margin-top: 10px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+
+.evCvfO {
+    width: 300px;
+    background-color: white;
+    border-radius: 16px;
+    height: fit-content;
+    filter: drop-shadow(rgba(27, 30, 36, 0.08) 0px 0px 7.905px);
+    border: 1px solid rgba(2, 6, 12, 0.08);
+    text-decoration: none;
+    display: block;
+}
+
+.hxenBp {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-box-orient: vertical;
+}
+
+.itRIyg {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.jbisoc {
+    padding: 6px 12px 12px;
+}
+
+.jAeDSA {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 4px;
+}
+
+.kamYmi {
+    display: flex;
+    gap: 4px;
+    margin-top: 10px;
+    margin-right: -12px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.lkpqS {
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+}
+
+.exZioo {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.33px;
+    color: rgb(255, 255, 255);
+}
+
+.ewHcud {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 28px;
+    border-radius: 8px;
+    background: var(--Light-Comms-Positive-Sub, #c8f9e5);
+    margin-top: 10px;
+    padding-left: 8px;
+}
+
+
+.dTXsaS {
+    display: flex;
+    padding: 2px 8px;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 12px;
+    background: var(--Light-Button-Background-Tertiary---Low, #f0f0f5);
+}
+
+.ILwCZ {
+    background-image: url("https://images7.alphacoders.com/350/350913.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.ivDJwj {
+    background-image: url("https://www.architectureartdesigns.com/wp-content/uploads/2016/11/2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.jTnMJO {
+    background-image: url("https://wallpaperaccess.com/full/3014622.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.dineout-heading {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.Swiggy-text {
+    margin-left: 205px;
+    font-weight: bold;
+    position: relative;
+}
+
+.Swiggy-boxes {
+    border: 1px solid black;
+    height: 35px;
+    width: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-wrap: nowrap;
+    font-size: 10px;
+    text-align: center;
+    place-content: center;
+    font-weight: bold;
+}
+
+.Swiggy-element {
+    display: grid;
+    grid-template-columns: repeat(4, 203px);
+    justify-content: center;
+    align-items: center;
+}
+
+.form-select {
+    width: 181px;
+    cursor: pointer;
+    text-align: center;
+    color: #ff5200;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    border-radius: 12px;
+}
+
+div>a {
+    text-decoration: none;
+    color: #4a4747;
+}
+
+
+.footer-container-fluid {
+    height: 80vh;
+    background-color: rgb(240, 240, 245);
+}
+
+.Swiggy-img {
+    height: 35px;
+    margin-left: 95px;
+}
+
+#swiggy-limited {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 96px;
+}
+
+.list-items {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.footer-heading {
+    font-size: 16px;
+}
+
+.footer-part {
+    position: absolute;
+    left: 310px;
+}
+
+#company {
+    margin-top: -70px;
+}
+
+#contact {
+    position: absolute;
+    top: -68px;
+    left: 145px;
+}
+
+#legal {
+    position: relative;
+    top: 8px;
+    left: 11px;
+}
+
+#available {
+    position: absolute;
+    top: -68px;
+    left: 290px;
+    text-wrap: nowrap;
+}
+
+#life-at-swiggy {
+    position: relative;
+    top: -170px;
+    left: 186px;
+}
+
+.social-links {
+    display: inline-block;
+    position: relative;
+    left: 66px;
+    top: -65px;
+}
+
+.fa-brands {
+    margin: 4px;
+}
+
+#underline {
+    position: relative;
+    top: 240px;
+}
+
+#Swiggy-text {
+    margin-top: 280px;
+    margin-left: 110px;
+    font-weight: bold;
+}
+
+.imgs .img {
+    float: right;
+    height: 50px;
+    width: 130px;
+    margin: 6px;
+    position: relative;
+    top: -50px;
+    right: 190px;
+}
+
+.img:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.footer-part ul>li>a {
+    text-decoration: none;
+    color: #575454;
+}
+
+/* Responsive mobile friendly-design  */
+@media(max-width:384px) {
+    .footer-container-fluid {
+        height: 170vh;
+        background-color: rgb(240, 240, 245);
+    }
+
+    .main-nav-items,
+    #getApp,
+    .left-img,
+    .right-img,
+    ._1LZf8,
+    #arrow-down,
+    .getSwiggyapp,
+    .path {
+        display: none;
+    }
+
+    #nav-bar {
+        background-color: #ff5200;
+        width: 384px;
+        height: 50px;
+    }
+
+    .Swiggy-logo {
+        height: 25px;
+        width: 95px;
+        margin-left: -50px;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+
+    .special-cards {
+        display: flex;
+        flex-direction: row;
+        width: 900px;
+        margin-top: 400px;
+    }
+
+    #signin {
+        width: 80px;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        font-size: 10px;
+        margin-left: -50px;
+    }
+
+    #heading {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 155px;
+        font-size: 19px;
+        margin-left: -25px;
+        text-wrap: wrap;
+    }
+
+    .cuyBeN {
+        position: absolute;
+        top: 95px;
+        left: 27px;
+        border-radius: 10px;
+        width: 340px;
+        background-color: white;
+        padding: 10px 14px;
+        color: #444040;
+    }
+
+    .fa-magnifying-glass {
+        position: absolute;
+        top: 112px;
+        font-size: 14px;
+        left: 335px;
+    }
+
+    .special-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 190px);
+        width: 300px;
+        margin-left: -7px;
+        margin-top: 310px;
+    }
+
+    ._carousel-parent {
+        display: grid;
+        grid-template-columns: repeat(5, 72px);
+        justify-content: center;
+        margin-left: -10px;
+        margin-top: 82px;
+        cursor: pointer;
+    }
+
+    .jwuiun {
+        height: 90px;
+        width: 80px;
+    }
+
+    .Shop-groceries {
+        margin-left: 14px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .content-part {
+        display: grid;
+        grid-template-columns: repeat(3, 90px);
+        gap: 18px;
+        margin-left: 15px;
+    }
+
+    .dfNLup {
+        font-weight: bold;
+        color: grey;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .dineout-heading {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+    .parent-card {
+        display: grid;
+        grid-template-columns: repeat(1, 180px);
+        grid-template-rows: repeat(2, 345px);
+        gap: 70px;
+        margin-left: 15px;
+    }
+
+    .Swiggy-text {
+        text-wrap: nowrap;
+        margin-left: 30px;
+    }
+
+    .Swiggy-element {
+        display: grid;
+        grid-template-columns: repeat(2, 140px);
+        margin-left: -40px;
+    }
+
+    .Swiggy-boxes {
+        height: 50px;
+        width: 130px;
+        text-wrap: wrap;
+    }
+
+    .form-select {
+        font-size: 15px;
+        width: 131px;
+    }
+
+
+    .Swiggy-img {
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    #swiggy-limited {
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    #Swiggy-text {
+        font-size: 12px;
+        text-wrap: nowrap;
+        color: rgb(99, 97, 97);
+        margin-left: 30px;
+    }
+
+    .imgs {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 787%;
+        left: 71%;
+        transform: translate(-50px, -50px);
+    }
+
+    #underline {
+        width: 340px;
+        color: #000;
+        margin-left: 10px;
+        margin-top: 520px;
+    }
+
+    #company {
+        margin-top: 20px;
+        margin-left: -300px;
+        text-wrap: nowrap;
+    }
+
+    #contact {
+        position: absolute;
+        top: 22px;
+        left: -90px;
+    }
+
+    #legal {
+        top: 180px;
+        left: -135px;
+        text-wrap: nowrap;
+    }
+
+    #available {
+        top: 350px;
+        left: -100px;
+    }
+
+    #life-at-swiggy {
+        top: 380px;
+        left: -240px;
+    }
+
+    .footer-heading {
+        text-wrap: nowrap;
+    }
+
+    .social-links {
+        top: 245px;
+        left: -66px;
+    }
+}

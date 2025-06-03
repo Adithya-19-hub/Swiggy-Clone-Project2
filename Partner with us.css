@@ -1,0 +1,165 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .image-parent {
+     position: absolute;
+     top: -40px;
+     left: 0;
+     width: 100%;
+ }
+
+ .Swiggy-Image {
+     height: 330px;
+     width: 100%;
+ }
+
+ .form-border {
+     background-color: white;
+     border-radius: 20px;
+     position: absolute;
+     top: 65px;
+     left: 620px;
+     height: 240px;
+     width: 275px;
+ }
+
+ .heading {
+     font-weight: bold;
+     font-size: 18px;
+     margin-top: 18px;
+     margin-left: 18px;
+ }
+
+ .content-para {
+     font-size: 12px;
+     margin-top: 17px;
+     margin-left: 20px;
+ }
+
+ .input-field {
+     margin-left: 22px;
+     width: 235px;
+     font-size: 10px;
+     padding: 10px 5px;
+ }
+
+ .continue {
+     margin-top: 20px;
+     margin-left: 22px;
+     width: 235px;
+     background-color: rgb(197, 193, 193);
+     border-radius: 4px;
+     padding: 4px 4px;
+     border: none;
+     color: whitesmoke;
+ }
+
+ .log-content {
+     font-size: 10px;
+     margin-top: 14px;
+     margin-left: 24px;
+     color: grey;
+ }
+
+ .logo {
+     position: absolute;
+     top: 100px;
+     left: 246px;
+     height: 50px;
+ }
+
+ #Swiggy-para {
+     text-transform: uppercase;
+     color: white;
+     font-size: 14px;
+     position: absolute;
+     margin-top: -177px;
+     left: 247px;
+ }
+
+ .increase-your-online {
+     color: #ffff;
+     position: absolute;
+     margin-top: -140px;
+     font-weight: bold;
+     left: 250px;
+     z-index: 10;
+ }
+
+ .three-step-factor {
+     position: absolute;
+     top: 310px;
+     left: 140px;
+ }
+
+ .border-factor {
+     border-radius: 13px;
+     background-color: rgb(240, 240, 245);
+     padding: 13px 30px;
+ }
+
+ .border2 {
+     height: 240px;
+     width: 500px;
+     position: absolute;
+     top: 330px;
+     left: 540px;
+     border: 2px solid whitesmoke;
+     background-color: rgb(240, 240, 245);
+     border-top-right-radius: 70px;
+     border-top-left-radius: 12px;
+     border-bottom-left-radius: 12px;
+     border-bottom-right-radius: 12px;
+ }
+
+ .hwbmPR {
+     line-height: 11.1px;
+     position: relative;
+     top: -5px;
+ }
+
+ .list-type {
+     color: red;
+ }
+
+ .llTVxB {
+     color: #ff5200;
+     text-decoration: underline;
+ }
+
+ ul>li {
+     list-style: none;
+ }
+
+ .disk {
+     background-color: #ff5200;
+     ;
+     height: 5px;
+     width: 5px;
+     position: relative;
+     left: 18px;
+     top: -24px;
+     border-radius: 10px;
+ }
+
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+
+ ._design-line {
+     border: 2px solid #ff5200;
+     width: 34px;
+     margin-top: 6px;
+     border-radius: 10px;
+ }
+
+ #react-native-popper-trigger-1 {
+     float: right;
+     margin-top: -55px;
+     margin-right: 15px;
+ }

@@ -1,0 +1,722 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+ }
+
+ .diningOut-header {
+     display: flex;
+     flex-direction: row;
+     position: sticky;
+     top: 0px;
+     margin-left: 33px;
+ }
+
+ #logo {
+     margin-left: 40px;
+     cursor: pointer;
+ }
+
+ .Swiggy-img {
+     height: 35px;
+     margin-left: 72px;
+ }
+
+ .location-arrow {
+     width: 20px;
+     height: 16px;
+     cursor: pointer;
+     margin-top: 20px;
+ }
+
+ .search-bar {
+     border-radius: 8px;
+     background-color: rgb(240, 240, 245);
+     padding: 8px 20px;
+     border: none;
+     width: 340px;
+     margin-left: 140px;
+ }
+
+ .search-text {
+     text-align: start;
+ }
+
+ .set {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .Account-logo {
+     width: 30px;
+     cursor: pointer;
+ }
+
+ .precise-location {
+     font-weight: bold;
+     cursor: pointer;
+     font-size: 13px;
+     margin-top: 24px;
+ }
+
+ .fa-solid {
+     position: absolute;
+     right: 250px;
+     top: 23px;
+     font-size: 13px;
+     color: grey;
+ }
+
+ .img1 {
+     height: 270px;
+     width: 920px;
+     border-radius: 16px;
+     margin-left: -50px;
+ }
+
+ .dyhewv {
+     font-size: 23px;
+     text-wrap: nowrap;
+     line-height: 1.2;
+     height: 100%;
+     font-weight: bold;
+     color: rgb(255, 238, 229);
+     margin-left: 30px;
+     margin-top: 30px;
+ }
+
+ .klWrLQ {
+     margin: 0px;
+ }
+
+ .bljDBE {
+     position: absolute;
+     top: 52%;
+     left: calc(2% + 5px);
+     width: 205px;
+ }
+
+ .kglgaR {
+     display: flex;
+     position: relative;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     width: 1000px;
+     height: 130px;
+     margin: 90px;
+ }
+
+ #horizontal-line {
+     margin-top: -5px;
+ }
+
+ .nav-item {
+     list-style: none;
+     margin-left: 35px;
+ }
+
+ .order {
+     font-weight: bold;
+     font-size: 13px;
+     margin-left: 18px;
+ }
+
+ .colororange {
+     border: 2px solid #ff5200;
+     width: 85px;
+     border-radius: 10px;
+     margin-left: 52px;
+     cursor: pointer;
+     margin-top: -20px;
+ }
+
+ .text-details {
+     border: 1px solid #242424;
+     border-radius: 18px;
+     width: 80px;
+     padding: 6px 10px 6px 9px;
+     font-weight: #242424;
+     font-size: 11px;
+     cursor: pointer;
+     text-align: center;
+     text-wrap: nowrap;
+     margin: 3px;
+ }
+
+ #filter,
+ #sortby {
+     text-align: start;
+ }
+
+ #serves {
+     padding: 5px 90px 0px 5px;
+ }
+
+ #new,
+ #less-than {
+     width: 100px;
+ }
+
+ .list-items-unique {
+     list-style: none;
+     display: flex;
+     margin-left: 50px;
+ }
+
+ .dineout {
+     margin-left: 113px;
+     margin-top: -19px;
+     font-size: 14px;
+ }
+
+ a {
+     text-decoration: none;
+     color: #4a4747;
+ }
+
+ .text-content {
+     margin-left: 85px;
+     font-weight: bold;
+ }
+
+ .box-content {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .Swiggy-box {
+     border: 1px solid black;
+     height: 180px;
+     width: 75%;
+     border-radius: 12px;
+     position: absolute;
+     top: 1380px;
+     z-index: 1;
+ }
+
+ #Swiggy-info {
+     font-size: 13px;
+     color: grey;
+     margin-left: 18px;
+ }
+
+ .seemore {
+     color: #ff5200;
+     font-weight: bold;
+     font-size: 13px;
+     border: none;
+     background-color: white;
+     margin-left: 2px;
+ }
+
+ .imgs9 {
+     margin-top: -100px;
+ }
+
+ .Swiggy-element {
+     display: grid;
+     grid-template-columns: repeat(4, 203px);
+     justify-content: center;
+     align-items: center;
+ }
+
+ .Swiggy-boxes {
+     border: 1px solid black;
+     height: 35px;
+     width: 180px;
+     margin: 10px;
+     border-radius: 10px;
+     cursor: pointer;
+     text-wrap: nowrap;
+     font-size: 10px;
+     text-align: center;
+     place-content: center;
+     font-weight: bold;
+ }
+
+ .Swiggy-text {
+     margin-left: 213px;
+     font-weight: bold;
+     position: relative;
+     text-wrap: nowrap;
+ }
+
+ .form-select {
+     width: 181px;
+     cursor: pointer;
+     text-align: center;
+     color: #ff5200;
+     font-weight: bold;
+     font-size: 13px;
+     padding-top: 6px;
+     padding-bottom: 12px;
+     border-radius: 12px;
+ }
+
+ .container-fluid2 {
+     position: relative;
+     top: 560px;
+ }
+
+ .getSwiggyapp img {
+     position: absolute;
+     top: 1550px;
+ }
+
+ #text-content {
+     position: absolute;
+     font-weight: bold;
+     left: 150px;
+     top: 1330px;
+ }
+
+ .textpara {
+     font-weight: bold;
+ }
+
+ .container-body {
+     display: grid;
+     grid-template-columns: repeat(3, 240px);
+     grid-template-rows: repeat(2, 200px);
+     gap: 40px;
+     margin-left: 40px;
+ }
+
+ .Card1,
+ .Card2 {
+     height: 135px;
+     width: 220px;
+     border-radius: 10px;
+     margin-top: 10px;
+     margin-left: 50px;
+ }
+
+ .lgOeYp .sw-restaurant-card-subtext-container {
+     display: grid;
+     -webkit-box-align: center;
+     align-items: center;
+     margin-top: 2px;
+     gap: 2px;
+     grid-auto-flow: column;
+     -webkit-box-pack: start;
+     justify-content: start;
+ }
+
+ .lgOeYp .sw-restaurant-card-descriptions-container {
+     display: grid;
+     -webkit-box-align: center;
+     align-items: center;
+     margin-top: 2px;
+     gap: 2px;
+ }
+
+ .dSTtWe {
+     text-transform: uppercase;
+ }
+
+ .sw-restaurant-card-subtext-container,
+ .bfOHNR {
+     font-size: 13px;
+ }
+
+ .evZgOZ {
+     font-weight: bold;
+     color: white;
+     position: relative;
+     top: -30px;
+     left: 60px;
+ }
+
+ .card-content {
+     margin-top: -10px;
+     margin-left: 18px;
+ }
+
+ .card-content2 {
+     margin-top: -5px;
+     margin-left: 58px;
+ }
+
+ .card-content3,
+ .card-content4,
+ .card-content5 {
+     margin-top: -5px;
+     margin-left: 58px;
+     text-wrap: nowrap;
+ }
+
+ .eLaouz {
+     font-weight: bold;
+ }
+
+ .lgOeYp:hover {
+     transform: scale(0.9);
+     transition: 0.3s;
+ }
+
+ /* Footer css */
+ .footer-container-fluid .container {
+     margin-top: 630px;
+ }
+
+ .social-links {
+     display: inline-block;
+     position: relative;
+     left: 66px;
+     top: -65px;
+ }
+
+ #underline {
+     position: relative;
+     top: 240px;
+ }
+
+ .list-items {
+     list-style: none;
+     display: inline-block;
+     font-size: 13px;
+     line-height: 25px;
+ }
+
+ #swiggy-limited {
+     font-size: 12px;
+     margin-top: 5px;
+     margin-left: 72px;
+ }
+
+ .footer-heading {
+     font-size: 16px;
+ }
+
+ .footer-part {
+     position: absolute;
+     left: 390px;
+ }
+
+ #company {
+     margin-top: -70px;
+ }
+
+ #contact {
+     position: absolute;
+     top: -68px;
+     left: 145px;
+ }
+
+ #legal {
+     position: relative;
+     top: 8px;
+     left: 11px;
+ }
+
+ #available {
+     position: absolute;
+     top: -68px;
+     left: 290px;
+     text-wrap: nowrap;
+ }
+
+ #life-at-swiggy {
+     position: relative;
+     top: -170px;
+     left: 186px;
+ }
+
+ #Swiggy-text {
+     margin-top: 280px;
+     margin-left: 76px;
+     font-weight: bold;
+ }
+
+ .imgs .img {
+     float: right;
+     height: 50px;
+     width: 130px;
+     margin: 6px;
+     position: relative;
+     top: -50px;
+     right: 190px;
+ }
+
+ .img:hover {
+     cursor: pointer;
+     transition: 1s;
+     transform: scale(1.1);
+ }
+
+ .top-restaurants {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     margin-left: -250px;
+ }
+
+ /* Responsive mobile-friendly design using CSS  */
+ @media(max-width:384px) {
+     .Swiggy-img {
+         height: 25px;
+         margin-left: -52px;
+     }
+
+     #logo {
+         margin-left: -62px;
+         margin-top: 190px;
+         cursor: pointer;
+     }
+
+     .fa-solid {
+         position: absolute;
+         right: 5px;
+         top: 125px;
+         font-size: 13px;
+         color: grey;
+     }
+
+     .search-bar {
+         border-radius: 8px;
+         background-color: rgb(240, 240, 245);
+         padding: 8px 20px;
+         border: none;
+         width: 365px;
+         margin-left: -220px;
+         margin-top: 100px;
+     }
+
+     .precise-location {
+         font-weight: bold;
+         cursor: pointer;
+         font-size: 12px;
+         margin-top: 72px;
+         margin-left: -100px;
+         text-wrap: nowrap;
+     }
+
+     .Account-logo {
+         width: 30px;
+         margin-left: -70px;
+     }
+
+     #horizontal-line {
+         margin-top: -100px;
+         margin-left: 20px;
+         width: 370px;
+     }
+
+     .location-arrow {
+         width: 20px;
+         height: 16px;
+         position: absolute;
+         top: 30%;
+         left: -10%;
+     }
+
+     .gWjuiB {
+         height: 140px;
+         width: 365px;
+         border-radius: 16px;
+         margin-left: -790px;
+         margin-top: 40px;
+     }
+
+     .dyhewv {
+         font-size: 12px;
+         text-wrap: nowrap;
+         line-height: 1.2;
+         height: 100%;
+         font-weight: bold;
+         color: rgb(255, 238, 229);
+         margin-left: -83px;
+         margin-top: 35px;
+     }
+
+     .two-text-items {
+         display: flex;
+         flex-direction: column;
+         position: relative;
+         top: -38px;
+         left: -60px;
+     }
+
+     #horizontal-line2 {
+         margin-top: 10px;
+         margin-left: 20px;
+         width: 350px;
+     }
+
+     .list-items-unique {
+         display: grid;
+         grid-template-columns: repeat(3, 100px);
+         gap: 10px;
+         position: absolute;
+         top: 460px;
+         left: -50px;
+     }
+
+     .text-content {
+         font-size: 13px;
+         position: relative;
+         top: -26px;
+         left: -60px;
+     }
+
+     .container-body {
+         display: grid;
+         grid-template-columns: repeat(2, 136px);
+         grid-template-rows: repeat(3, 246px);
+         margin-left: -23px;
+         position: absolute;
+         top: 630px;
+     }
+
+     .Card1,
+     .Card2 {
+         height: 155px;
+         width: 160px;
+         border-radius: 10px;
+         margin-top: 10px;
+         margin-left: 50px;
+     }
+
+     .kLuhdW,
+     .bfOHNR {
+         text-wrap: nowrap;
+     }
+
+     #_unique-element {
+         margin-top: 20px;
+     }
+
+     .footer-container-fluid {
+         height: 170vh;
+         position: relative;
+         top: 1300px;
+         width: 360px;
+     }
+
+     #company {
+         margin-top: 20px;
+         margin-left: -430px;
+         text-wrap: nowrap;
+     }
+
+     #contact {
+         position: absolute;
+         top: 22px;
+         left: -220px;
+     }
+
+     #legal {
+         top: 180px;
+         left: -135px;
+         text-wrap: nowrap;
+     }
+
+     #available {
+         top: 350px;
+         left: -220px;
+     }
+
+     #life-at-swiggy {
+         top: 410px;
+         left: -240px;
+     }
+
+     .footer-heading {
+         text-wrap: nowrap;
+     }
+
+     .social-links {
+         top: 330px;
+         left: -140px;
+         text-wrap: nowrap;
+     }
+
+     #Swiggy-text {
+         font-size: 12px;
+         text-wrap: nowrap;
+         color: rgb(99, 97, 97);
+         margin-left: -10px;
+     }
+
+     #underline {
+         width: 340px;
+         color: #000;
+         margin-left: -40px;
+         margin-top: 520px;
+     }
+
+     .imgs {
+         display: flex;
+         flex-direction: row;
+         position: absolute;
+         top: 1020px;
+         left: 71%;
+         transform: translate(-50px, -50px);
+     }
+
+     .Swiggy-img {
+         height: 30px;
+         margin-left: -20px;
+     }
+
+     #swiggy-limited {
+         font-size: 14px;
+         margin-left: -20px;
+         margin-top: 10px;
+     }
+
+     .Swiggy-text {
+         text-wrap: nowrap;
+         margin-left: 40px;
+         position: relative;
+         top: 1300px;
+         font-size: 15px;
+         text-wrap: nowrap;
+     }
+
+     .Swiggy-element {
+         display: grid;
+         grid-template-columns: repeat(2, 140px);
+         margin-left: -40px;
+         position: relative;
+         top: 1300px;
+     }
+
+     .Swiggy-boxes {
+         height: 50px;
+         width: 130px;
+         text-wrap: wrap;
+     }
+
+     .form-select {
+         font-size: 15px;
+         width: 131px;
+     }
+
+     .getSwiggyapp {
+         display: none;
+     }
+
+     .Swiggy-box {
+         height: 450px;
+         position: absolute;
+         top: 1890px;
+         left: 50px;
+     }
+
+     #text-content {
+         position: relative;
+         top: 1360px;
+         left: -10px;
+         text-wrap: nowrap;
+     }
+ }

@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Dining Out Restaurants In Bangalore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Dining Out Restaurants.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Header starts here -->
+    <div class="container-fluid">
+        <header>
+            <nav class="diningOut-header">
+                <ul>
+                    <img alt="" class="Swiggy-img mt-3" loading="lazy"
+                        src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg" id="logo" />
+                </ul>
+                <ul class="set">
+                    <div class="location-arrow mx-1"><svg width="100%" height="100%" viewBox="0 0 16 17" fill="#FF5200"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.1828 1.84246C13.7623 0.516285 15.0521 -0.146802 15.6759 0.448004C16.2997 1.04281 15.6986 2.36264 14.4965 5.00231L11.0318 12.6101C9.78188 15.3547 9.15692 16.727 8.28744 16.6338C7.41796 16.5407 7.09629 15.0596 6.45294 12.0973C6.29606 11.375 6.21761 11.0138 5.97533 10.7649C5.73305 10.5161 5.37563 10.4285 4.6608 10.2532L4.29783 10.1642C1.65419 9.51589 0.332363 9.19175 0.234059 8.35677C0.135754 7.52179 1.34615 6.89952 3.76695 5.65497L11.1828 1.84246Z"
+                                fill="#FF5200"></path>
+                        </svg>
+                    </div>
+                    <div class="precise-location">Setup your precise location</div>
+                </ul>
+                <ul>
+                    <div data-testid="header_search_bar" class="search-1 mt-2">
+                        <div class="search-2"><button type="button" class="search-bar">
+                                <div class="search-3">
+                                    <div class="search-text text-secondary">Search for restaurant and food <i
+                                            class="fa-solid fa-magnifying-glass"></i>
+                                        <div>
+                                        </div>
+                            </button><svg aria-hidden="true" height="20" width="20"
+                                style="position:absolute;top:16px;right:16px;width:18px;height:18px"
+                                class="sc-iBdmCd jkDhNj">
+                                <use xlink:href="/core/sprite-mpK4HJSO.svg#search20"></use>
+                            </svg></div>
+                    </div>
+                </ul>
+                <ul>
+                    <div data-testid="header_my_account" class="Account-logo mt-3"><svg viewBox="0 0 32 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" id="account">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.6097 9.51178C14.1071 9.51178 15.3202 8.33063 15.3202 6.87364C15.3202 5.41747 14.1071 4.23633 12.6097 4.23633C11.1132 4.23633 9.89924 5.41747 9.89924 6.87364C9.89924 8.33063 11.1132 9.51178 12.6097 9.51178ZM6.63407 15.4005C7.41896 12.9149 9.79771 11.1071 12.6091 11.1071C15.422 11.1071 17.7998 12.9149 18.5842 15.4005C18.8042 16.0974 18.9142 16.4459 18.6422 16.8169C18.3702 17.188 17.9279 17.188 17.0434 17.188H8.17479C7.29023 17.188 6.84795 17.188 6.57597 16.8169C6.304 16.4458 6.41402 16.0974 6.63407 15.4005Z"
+                                fill="#43464A"></path>
+                            <path
+                                d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z"
+                                fill="#43464A"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.36 14.2184C18.4089 14.2184 20.0688 12.6022 20.0688 10.6086C20.0688 8.61615 18.4089 7 16.36 7C14.3123 7 12.6513 8.61615 12.6513 10.6086C12.6513 12.6022 14.3123 14.2184 16.36 14.2184ZM8.18351 22.2763C9.25748 18.8752 12.5123 16.4017 16.3591 16.4017C20.208 16.4017 23.4615 18.8752 24.5349 22.2762C24.8359 23.2298 24.9863 23.7066 24.6142 24.2143C24.242 24.722 23.6369 24.722 22.4265 24.722H10.2917C9.08134 24.722 8.47617 24.722 8.10403 24.2143C7.73188 23.7065 7.88242 23.2297 8.18351 22.2763Z"
+                                fill="white"></path>
+                        </svg></div>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- Header ends here -->
+
+    <hr id="horizontal-line" />
+    <div class="StyleWrapper__Main-sc-10ym97a-3 klWrLQ">
+        <div>
+            <div data-testid="mast_header" class="MastHeader__ImgContainer-sc-1psnc2k-0 kglgaR"><img class="img1"
+                    src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/DO_collectionBanner.png"
+                    alt="Dining out restaurants in Bangalore">
+                <div class="MastHeader__TextOverlay-sc-1psnc2k-2 bljDBE">
+                    <h1 class="MastHeader__TextDweb-sc-1psnc2k-3 dyhewv">Dining out restaurants in <br />Bangalore</h1>
+                </div>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    <div class="container">
+        <ul class="two-text-items mx-4">
+            <li class="nav-item">
+                <a class="nav-link order" aria-current="page" href="/Order Food Online.html">Order Online</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active dineout" aria-current="page" href="#">Dineout</a>
+            </li>
+            <hr id="horizontal-line2" />
+            <div class="colororange">
+                <!-- color orange will be displayed -->
+            </div>
+        </ul>
+    </div>
+    <div class="container">
+        <ul class="list-items-unique mx-4">
+            <li class="text-details fw-bold" id="filter">Filter <i class="ri-equalizer-2-line float-end"></i></li>
+            <li class="text-details fw-bold" id="sortby">Sort By <i class="ri-arrow-down-s-line float-end"></i></li>
+            <li class="text-details fw-bold">Book a table</li>
+            <li class="text-details fw-bold">within 5Km</li>
+            <li class="text-details fw-bold">Rating 4.0+</li>
+            <li class="text-details fw-bold">Pure Veg</li>
+            <li class="text-details fw-bold" id="serves">Serves Alcohol</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="parent-card mt-4">
+            <a href="https://www.swiggy.com/restaurants/shree-mahalakshmi-sweets-chamrajpete-bangalore-82160/dineout"
+                class="sc-hhyLtv evCvfO">
+                <div class="sc-fHekdT kwChQP">
+                    <div class="sc-blmETK iFfhgL">
+                        <div class="sc-ifyqMZ eLERJm"></div>
+                        <div class="sc-ifyqMZ iHthcm"></div>
+                        <div class="sc-ifyqMZ jTnxwh"></div>
+                        <div class="sc-ifyqMZ dwKqqZ"></div>
+                        <div class="sc-ifyqMZ bjoSFk"></div>
+                    </div>
+                    <div class="sc-dJGLCQ kGTuBe">
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL fgWOJL"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                    </div>
+                    <div class="sc-bBkKQz iyTBvp">
+                        <div class="sc-beySbM hxenBp">Shree Mahalakshmi Sweets</div>
+                        <div class="sc-iuOPfm itRIyg"><svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8.00005" cy="7.99999" r="7.2"
+                                    fill="url(#StoreRating16_svg__paint0_linear_32982_71565)"></circle>
+                                <path
+                                    d="M8.06524 10.292C8.02495 10.2683 7.97496 10.2683 7.93466 10.292L5.85313 11.5174C5.54781 11.6972 5.1768 11.4206 5.26191 11.0766L5.8205 8.81958C5.83239 8.77154 5.81567 8.72094 5.77751 8.68943L3.96412 7.19223C3.68661 6.96312 3.82918 6.51269 4.18797 6.48497L6.58754 6.29955C6.63517 6.29587 6.67685 6.2661 6.69578 6.22223L7.63269 4.05109C7.77165 3.72907 8.22825 3.72907 8.36722 4.05109L9.30412 6.22223C9.32305 6.2661 9.36473 6.29587 9.41237 6.29955L11.8119 6.48497C12.1707 6.51269 12.3133 6.96312 12.0358 7.19223L10.2224 8.68943C10.1842 8.72094 10.1675 8.77154 10.1794 8.81958L10.738 11.0766C10.8231 11.4205 10.4521 11.6972 10.1468 11.5174L8.06524 10.292Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating16_svg__paint0_linear_32982_71565" x1="8.00005"
+                                        y1="0.799988" x2="8.00005" y2="15.2" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="sc-beySbM dnBtAy">4.1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc-cyZbSi jbisoc">
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Desserts<span> • </span>Street Food</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">₹400 for two</div>
+                    </div>
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Chamrajpete, Bangalore</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">1.2 km</div>
+                    </div>
+                    <div class="sc-iKOlBE kamYmi">
+                        <div class="sc-gjLKRp dTXsaS"><img class="sc-guDLRT lkpqS"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/highlights/book.png"
+                                width="12px" height="12px" alt="Table booking">
+                            <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">Table booking</div>
+                        </div>
+                    </div>
+                    <div class="sc-bZHTEL bXcPtu">
+                        <div class="sc-kMzDYw jjXWUL"><img class="sc-guDLRT hnhgbZ"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/OFFER.png"
+                                width="26px" height="20px" alt="offer_icon">
+                            <div class="sc-beySbM kXTeQG">Flat 15% off on walk-in</div>
+                        </div>
+                        <div class="sc-beySbM exZioo">+ 1 more</div>
+                    </div>
+                    <div class="sc-ilxdoh ewHcud">
+                        <div class="sc-beySbM xHmzd">Up to 10% off with bank offers</div>
+                    </div>
+                    <div class="sc-jIBmdK UoGwL">
+                        <div class="sc-beySbM kiKeAn">Get extra ₹444 off using SWIGGY4</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.swiggy.com/restaurants/mgs-fine-dining-basavanagudi-bangalore-1052723/dineout"
+                class="sc-hhyLtv evCvfO">
+                <div class="sc-fHekdT kwChQP">
+                    <div class="sc-blmETK iFfhgL">
+                        <div class="sc-ifyqMZ bIdkfF"></div>
+                        <div class="sc-ifyqMZ hSbHyA"></div>
+                        <div class="sc-ifyqMZ jTnMJO"></div>
+                        <div class="sc-ifyqMZ iqBoUY"></div>
+                    </div>
+                    <div class="sc-dJGLCQ kGTuBe">
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL fgWOJL"></div>
+                    </div>
+                    <div class="sc-bBkKQz iyTBvp">
+                        <div class="sc-beySbM hxenBp">MG's Fine Dining</div>
+                        <div class="sc-iuOPfm itRIyg"><svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8.00005" cy="7.99999" r="7.2"
+                                    fill="url(#StoreRating16_svg__paint0_linear_32982_71565)"></circle>
+                                <path
+                                    d="M8.06524 10.292C8.02495 10.2683 7.97496 10.2683 7.93466 10.292L5.85313 11.5174C5.54781 11.6972 5.1768 11.4206 5.26191 11.0766L5.8205 8.81958C5.83239 8.77154 5.81567 8.72094 5.77751 8.68943L3.96412 7.19223C3.68661 6.96312 3.82918 6.51269 4.18797 6.48497L6.58754 6.29955C6.63517 6.29587 6.67685 6.2661 6.69578 6.22223L7.63269 4.05109C7.77165 3.72907 8.22825 3.72907 8.36722 4.05109L9.30412 6.22223C9.32305 6.2661 9.36473 6.29587 9.41237 6.29955L11.8119 6.48497C12.1707 6.51269 12.3133 6.96312 12.0358 7.19223L10.2224 8.68943C10.1842 8.72094 10.1675 8.77154 10.1794 8.81958L10.738 11.0766C10.8231 11.4205 10.4521 11.6972 10.1468 11.5174L8.06524 10.292Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating16_svg__paint0_linear_32982_71565" x1="8.00005"
+                                        y1="0.799988" x2="8.00005" y2="15.2" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="sc-beySbM dnBtAy">4.0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc-cyZbSi jbisoc">
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">North Indian<span> • </span>Asian</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">₹950 for two</div>
+                    </div>
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Springs Hotel And Spa, Basavanagudi, Bangalore</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">2 km</div>
+                    </div>
+                    <div class="sc-iKOlBE kamYmi">
+                        <div class="sc-gjLKRp dTXsaS"><img class="sc-guDLRT lkpqS"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/highlights/book.png"
+                                width="12px" height="12px" alt="Table booking">
+                            <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">Table booking</div>
+                        </div>
+                    </div>
+                    <div class="sc-bZHTEL bXcPtu">
+                        <div class="sc-kMzDYw jjXWUL"><img class="sc-guDLRT hnhgbZ"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/OFFER.png"
+                                width="26px" height="20px" alt="offer_icon">
+                            <div class="sc-beySbM kXTeQG">Flat 15% off on pre-booking</div>
+                        </div>
+                        <div class="sc-beySbM exZioo">+ 2 more</div>
+                    </div>
+                    <div class="sc-ilxdoh ewHcud">
+                        <div class="sc-beySbM xHmzd">Up to 10% off with bank offers</div>
+                    </div>
+                    <div class="sc-jIBmdK UoGwL">
+                        <div class="sc-beySbM kiKeAn">Get extra 10% off using SAVE150UPI</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.swiggy.com/restaurants/california-burrito-gandhi-bazaar-bangalore-484182/dineout"
+                class="sc-hhyLtv evCvfO">
+                <div class="sc-fHekdT kwChQP">
+                    <div class="sc-blmETK iFfhgL">
+                        <div class="sc-ifyqMZ fAwIMu"></div>
+                        <div class="sc-ifyqMZ hgLqSu"></div>
+                        <div class="sc-ifyqMZ evRHWg"></div>
+                        <div class="sc-ifyqMZ jttoHU"></div>
+                    </div>
+                    <div class="sc-dJGLCQ kGTuBe">
+                        <div class="sc-hIPCAL fgWOJL"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                    </div>
+                    <div class="sc-bBkKQz iyTBvp">
+                        <div class="sc-beySbM hxenBp">California Burrito</div>
+                        <div class="sc-iuOPfm itRIyg"><svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8.00005" cy="7.99999" r="7.2"
+                                    fill="url(#StoreRating16_svg__paint0_linear_32982_71565)"></circle>
+                                <path
+                                    d="M8.06524 10.292C8.02495 10.2683 7.97496 10.2683 7.93466 10.292L5.85313 11.5174C5.54781 11.6972 5.1768 11.4206 5.26191 11.0766L5.8205 8.81958C5.83239 8.77154 5.81567 8.72094 5.77751 8.68943L3.96412 7.19223C3.68661 6.96312 3.82918 6.51269 4.18797 6.48497L6.58754 6.29955C6.63517 6.29587 6.67685 6.2661 6.69578 6.22223L7.63269 4.05109C7.77165 3.72907 8.22825 3.72907 8.36722 4.05109L9.30412 6.22223C9.32305 6.2661 9.36473 6.29587 9.41237 6.29955L11.8119 6.48497C12.1707 6.51269 12.3133 6.96312 12.0358 7.19223L10.2224 8.68943C10.1842 8.72094 10.1675 8.77154 10.1794 8.81958L10.738 11.0766C10.8231 11.4205 10.4521 11.6972 10.1468 11.5174L8.06524 10.292Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating16_svg__paint0_linear_32982_71565" x1="8.00005"
+                                        y1="0.799988" x2="8.00005" y2="15.2" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="sc-beySbM dnBtAy">4.5</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc-cyZbSi jbisoc">
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Mexican<span> • </span>Fast Food</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">₹450 for two</div>
+                    </div>
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Gandhi Bazaar, Bangalore</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">2 km</div>
+                    </div>
+                    <div class="sc-iKOlBE kamYmi">
+                        <div class="sc-gjLKRp dTXsaS"><img class="sc-guDLRT lkpqS"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/highlights/book.png"
+                                width="12px" height="12px" alt="Table booking">
+                            <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">Table booking</div>
+                        </div>
+                    </div>
+                    <div class="sc-bZHTEL bXcPtu">
+                        <div class="sc-kMzDYw jjXWUL"><img class="sc-guDLRT hnhgbZ"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/OFFER.png"
+                                width="26px" height="20px" alt="offer_icon">
+                            <div class="sc-beySbM kXTeQG">Flat 10% off on walk-in</div>
+                        </div>
+                        <div class="sc-beySbM exZioo">+ 1 more</div>
+                    </div>
+                    <div class="sc-ilxdoh ewHcud">
+                        <div class="sc-beySbM xHmzd">Up to 10% off with bank offers</div>
+                    </div>
+                    <div class="sc-jIBmdK UoGwL">
+                        <div class="sc-beySbM kiKeAn">Get extra ₹100 off using JUPITERUPI100</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.swiggy.com/restaurants/la-pinoz-pizza-basavanagudi-bangalore-424558/dineout"
+                class="sc-hhyLtv evCvfO">
+                <div class="sc-fHekdT kwChQP">
+                    <div class="sc-blmETK iFfhgL">
+                        <div class="sc-ifyqMZ hzoAmX"></div>
+                        <div class="sc-ifyqMZ klFKNW"></div>
+                        <div class="sc-ifyqMZ evfgcu"></div>
+                        <div class="sc-ifyqMZ epMLpv"></div>
+                        <div class="sc-ifyqMZ ILwCZ"></div>
+                    </div>
+                    <div class="sc-dJGLCQ kGTuBe">
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL fgWOJL"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                    </div>
+                    <div class="sc-bBkKQz iyTBvp">
+                        <div class="sc-beySbM hxenBp">La Pino'z Pizza</div>
+                        <div class="sc-iuOPfm itRIyg"><svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8.00005" cy="7.99999" r="7.2"
+                                    fill="url(#StoreRating16_svg__paint0_linear_32982_71565)"></circle>
+                                <path
+                                    d="M8.06524 10.292C8.02495 10.2683 7.97496 10.2683 7.93466 10.292L5.85313 11.5174C5.54781 11.6972 5.1768 11.4206 5.26191 11.0766L5.8205 8.81958C5.83239 8.77154 5.81567 8.72094 5.77751 8.68943L3.96412 7.19223C3.68661 6.96312 3.82918 6.51269 4.18797 6.48497L6.58754 6.29955C6.63517 6.29587 6.67685 6.2661 6.69578 6.22223L7.63269 4.05109C7.77165 3.72907 8.22825 3.72907 8.36722 4.05109L9.30412 6.22223C9.32305 6.2661 9.36473 6.29587 9.41237 6.29955L11.8119 6.48497C12.1707 6.51269 12.3133 6.96312 12.0358 7.19223L10.2224 8.68943C10.1842 8.72094 10.1675 8.77154 10.1794 8.81958L10.738 11.0766C10.8231 11.4205 10.4521 11.6972 10.1468 11.5174L8.06524 10.292Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating16_svg__paint0_linear_32982_71565" x1="8.00005"
+                                        y1="0.799988" x2="8.00005" y2="15.2" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="sc-beySbM dnBtAy">4.1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc-cyZbSi jbisoc">
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Pizza<span> • </span>Fast Food</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">₹500 for two</div>
+                    </div>
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Basavanagudi, Bangalore</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">2 km</div>
+                    </div>
+                    <div class="sc-iKOlBE kamYmi">
+                        <div class="sc-gjLKRp dTXsaS"><img class="sc-guDLRT lkpqS"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/highlights/book.png"
+                                width="12px" height="12px" alt="Table booking">
+                            <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">Table booking</div>
+                        </div>
+                    </div>
+                    <div class="sc-bZHTEL bXcPtu">
+                        <div class="sc-kMzDYw jjXWUL"><img class="sc-guDLRT hnhgbZ"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/OFFER.png"
+                                width="26px" height="20px" alt="offer_icon">
+                            <div class="sc-beySbM kXTeQG">Flat 15% off on walk-in</div>
+                        </div>
+                        <div class="sc-beySbM exZioo">+ 1 more</div>
+                    </div>
+                    <div class="sc-ilxdoh ewHcud">
+                        <div class="sc-beySbM xHmzd">Up to 10% off with bank offers</div>
+                    </div>
+                    <div class="sc-jIBmdK UoGwL">
+                        <div class="sc-beySbM kiKeAn">Get extra ₹444 off using SWIGGY4</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.swiggy.com/restaurants/soho-basavanagudi-bangalore-596353/dineout"
+                class="sc-hhyLtv evCvfO">
+                <div class="sc-fHekdT kwChQP">
+                    <div class="sc-blmETK iFfhgL">
+                        <div class="sc-ifyqMZ ctoznl"></div>
+                        <div class="sc-ifyqMZ dJiIUl"></div>
+                        <div class="sc-ifyqMZ bKEmSS"></div>
+                        <div class="sc-ifyqMZ iIeaAZ"></div>
+                        <div class="sc-ifyqMZ cXzvth"></div>
+                        <div class="sc-ifyqMZ cPocpC"></div>
+                        <div class="sc-ifyqMZ hKOlxJ"></div>
+                    </div>
+                    <div class="sc-dJGLCQ kGTuBe">
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL fgWOJL"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                    </div>
+                    <div class="sc-bBkKQz iyTBvp">
+                        <div class="sc-beySbM hxenBp">Soho</div>
+                        <div class="sc-iuOPfm itRIyg"><svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8.00005" cy="7.99999" r="7.2"
+                                    fill="url(#StoreRating16_svg__paint0_linear_32982_71565)"></circle>
+                                <path
+                                    d="M8.06524 10.292C8.02495 10.2683 7.97496 10.2683 7.93466 10.292L5.85313 11.5174C5.54781 11.6972 5.1768 11.4206 5.26191 11.0766L5.8205 8.81958C5.83239 8.77154 5.81567 8.72094 5.77751 8.68943L3.96412 7.19223C3.68661 6.96312 3.82918 6.51269 4.18797 6.48497L6.58754 6.29955C6.63517 6.29587 6.67685 6.2661 6.69578 6.22223L7.63269 4.05109C7.77165 3.72907 8.22825 3.72907 8.36722 4.05109L9.30412 6.22223C9.32305 6.2661 9.36473 6.29587 9.41237 6.29955L11.8119 6.48497C12.1707 6.51269 12.3133 6.96312 12.0358 7.19223L10.2224 8.68943C10.1842 8.72094 10.1675 8.77154 10.1794 8.81958L10.738 11.0766C10.8231 11.4205 10.4521 11.6972 10.1468 11.5174L8.06524 10.292Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating16_svg__paint0_linear_32982_71565" x1="8.00005"
+                                        y1="0.799988" x2="8.00005" y2="15.2" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="sc-beySbM dnBtAy">3.9</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc-cyZbSi jbisoc">
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">North Indian<span> • </span>Chinese</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">₹1800 for two</div>
+                    </div>
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Basavanagudi, Bangalore</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">2.3 km</div>
+                    </div>
+                    <div class="sc-iKOlBE kamYmi">
+                        <div class="sc-gjLKRp dTXsaS"><img class="sc-guDLRT lkpqS"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/highlights/book.png"
+                                width="12px" height="12px" alt="Table booking">
+                            <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">Table booking</div>
+                        </div>
+                    </div>
+                    <div class="sc-bZHTEL bXcPtu">
+                        <div class="sc-kMzDYw jjXWUL"><img class="sc-guDLRT hnhgbZ"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/OFFER.png"
+                                width="26px" height="20px" alt="offer_icon">
+                            <div class="sc-beySbM kXTeQG">Flat 10% off on walk-in</div>
+                        </div>
+                        <div class="sc-beySbM exZioo">+ 1 more</div>
+                    </div>
+                    <div class="sc-ilxdoh ewHcud">
+                        <div class="sc-beySbM xHmzd">Up to 10% off with bank offers</div>
+                    </div>
+                    <div class="sc-jIBmdK UoGwL">
+                        <div class="sc-beySbM kiKeAn">Get extra ₹444 off using SWIGGY4</div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.swiggy.com/restaurants/pipabu-basavanagudi-bangalore-846970/dineout"
+                class="sc-hhyLtv evCvfO">
+                <div class="sc-fHekdT kwChQP">
+                    <div class="sc-blmETK iFfhgL">
+                        <div class="sc-ifyqMZ ipVloY"></div>
+                        <div class="sc-ifyqMZ iFXBdp"></div>
+                        <div class="sc-ifyqMZ fqQeow"></div>
+                        <div class="sc-ifyqMZ jXJkjb"></div>
+                        <div class="sc-ifyqMZ ivDJwj"></div>
+                    </div>
+                    <div class="sc-dJGLCQ kGTuBe">
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL bxFNLf"></div>
+                        <div class="sc-hIPCAL fgWOJL"></div>
+                    </div>
+                    <div class="sc-bBkKQz iyTBvp">
+                        <div class="sc-beySbM hxenBp">Pipabu</div>
+                        <div class="sc-iuOPfm itRIyg"><svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <circle cx="8.00005" cy="7.99999" r="7.2"
+                                    fill="url(#StoreRating16_svg__paint0_linear_32982_71565)"></circle>
+                                <path
+                                    d="M8.06524 10.292C8.02495 10.2683 7.97496 10.2683 7.93466 10.292L5.85313 11.5174C5.54781 11.6972 5.1768 11.4206 5.26191 11.0766L5.8205 8.81958C5.83239 8.77154 5.81567 8.72094 5.77751 8.68943L3.96412 7.19223C3.68661 6.96312 3.82918 6.51269 4.18797 6.48497L6.58754 6.29955C6.63517 6.29587 6.67685 6.2661 6.69578 6.22223L7.63269 4.05109C7.77165 3.72907 8.22825 3.72907 8.36722 4.05109L9.30412 6.22223C9.32305 6.2661 9.36473 6.29587 9.41237 6.29955L11.8119 6.48497C12.1707 6.51269 12.3133 6.96312 12.0358 7.19223L10.2224 8.68943C10.1842 8.72094 10.1675 8.77154 10.1794 8.81958L10.738 11.0766C10.8231 11.4205 10.4521 11.6972 10.1468 11.5174L8.06524 10.292Z"
+                                    fill="white"></path>
+                                <defs>
+                                    <linearGradient id="StoreRating16_svg__paint0_linear_32982_71565" x1="8.00005"
+                                        y1="0.799988" x2="8.00005" y2="15.2" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#21973B"></stop>
+                                        <stop offset="1" stop-color="#128540"></stop>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="sc-beySbM dnBtAy">4.4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sc-cyZbSi jbisoc">
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Continental<span> • </span>Italian</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">₹500 for two</div>
+                    </div>
+                    <div class="sc-lnskGP jAeDSA">
+                        <div class="sc-beySbM BEWkR">Basavanagudi, Bangalore</div>
+                        <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">2.3 km</div>
+                    </div>
+                    <div class="sc-iKOlBE kamYmi">
+                        <div class="sc-gjLKRp dTXsaS"><img class="sc-guDLRT lkpqS"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/highlights/book.png"
+                                width="12px" height="12px" alt="Table booking">
+                            <div class="sc-beySbM jCPgxj sc-eAKupa hrKRzt">Table booking</div>
+                        </div>
+                    </div>
+                    <div class="sc-bZHTEL bXcPtu">
+                        <div class="sc-kMzDYw jjXWUL"><img class="sc-guDLRT hnhgbZ"
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dineout/rx-card/OFFER.png"
+                                width="26px" height="20px" alt="offer_icon">
+                            <div class="sc-beySbM kXTeQG">Flat 10% off on walk-in</div>
+                        </div>
+                        <div class="sc-beySbM exZioo">+ 1 more</div>
+                    </div>
+                    <div class="sc-ilxdoh ewHcud">
+                        <div class="sc-beySbM xHmzd">Up to 10% off with bank offers</div>
+                    </div>
+                    <div class="sc-jIBmdK UoGwL">
+                        <div class="sc-beySbM kiKeAn">Get extra ₹444 off using SWIGGY4</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="container box-content">
+        <div class="Swiggy-box">
+            <h4 class="text-secondary mt-3 mx-3">Discover Your Perfect Dining Experience in Bangalore</h4>
+            <p id="Swiggy-info"> Looking for the best restaurants in Bangalore? Whether you're craving local delicacies
+                or international cuisine, explore a wide array of dining options to suit every taste. From cozy cafes to
+                upscale eateries, restaurants in Bangalore offer a perfect blend of flavor and ambiance. Enjoy delicious
+                meals crafted by skilled chefs, using only the freshest ingredients. Whether you’re planning a casual
+                outing or a special celebration, the diverse restaurant scene in Bangalore ensures an unforgettable
+                dining<span id="dots">......</span><span id="morepara"></span>
+                <button type="button" aria-label="Click here to know more" class="seemore">
+                    <div class="sc-beySbM hsKxKP sc-egTteO kLmtac" id="seemore">See more</div>
+                </button>
+        </div>
+    </div>
+
+    <!-- Get the Swiggy app Now. -->
+    <div class="getSwiggyapp mt-5">
+        <img alt="Get the Swiggy App banner" style="object-fit:contain;height:100%;width:100%"
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/m/seo/App_download_banner.png"
+            class="imgs9">
+    </div>
+
+    <div class="container-fluid">
+        <section>
+            <h6 class="Swiggy-text mt-5">Explore localities in and around Bangalore</h6>
+            <div class="Swiggy-element">
+                <div class="Swiggy-boxes"><a href="#">Magadi Road Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Maruthi Nagar Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Yelahanka Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Kancheepuram Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Hennur Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Murugeshpalya Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Kunigal Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bidadi Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Mysore Road Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Hebbal Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Pandara Road Restaurants</a></div>
+                <select class="form-select Swiggy-boxes" aria-label="select example" id="Show-More">
+                    <option>Show More</option>
+                </select>
+                <span id="cities">
+                    <!-- Locatily will be displayed here, when Show More is clicked -->
+                </span>
+            </div>
+            <div class="Swiggy-element" id="Unique-work">
+                <!-- More localities will be displayed here, when Show More is clicked -->
+            </div>
+        </section>
+    </div>
+
+    <div class="container-fluid">
+        <section>
+            <h6 class="Swiggy-text mt-5">Explore Top Cuisine Dining Sports in Bangalore</h6>
+            <div class="Swiggy-element">
+                <div class="Swiggy-boxes"><a href="#">American Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Andra Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Asian Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Arabian Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Awadhi Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">BBQ Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bakery Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bar Food Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bengali Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Biryani Restaurants</a></div>
+                <div class="Swiggy-boxes"><a href="#">Greek Restaurants</a></div>
+                <select class="form-select Swiggy-boxes" aria-label="select example" id="Show-More2">
+                    <option>Show More</option>
+                </select>
+                <span id="grocery-items">
+                    <!-- grocery delivery will be displayed here, when Show More is clicked -->
+                </span>
+            </div>
+            <div class="Swiggy-element" id="Unique-work2">
+                <!-- Top Cuisine in city will be displayed here, when Show More is clicked -->
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container-fluid">
+        <section>
+            <h6 class="Swiggy-text mt-5">More Cuisines Restaurants Options Near Me</h6>
+            <div class="Swiggy-element">
+                <div class="Swiggy-boxes"><a href="#">American Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Andra Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Asian Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Arabian Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Awadhi Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">BBQ Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bakery Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bar Food Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Bengali Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Biryani Restaurants near me</a></div>
+                <div class="Swiggy-boxes"><a href="#">Greek Restaurants near me</a></div>
+                <select class="form-select Swiggy-boxes" aria-label="select example" id="Show-More3">
+                    <option>Show More</option>
+                </select>
+                <span id="nearme">
+                    <!-- city will be displayed here, when Show More is clicked -->
+                </span>
+            </div>
+            <div class="Swiggy-element" id="Unique-work6">
+                <!-- More Cuisine will be displayed here, when Show More is clicked -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer starts here -->
+    <div class="footer-container-fluid mt-5 mx-5">
+        <footer>
+            <div class="container">
+                <img alt="" class="Swiggy-img mt-4" loading="lazy"
+                    src="https://media-assets.swiggy.com/portal/testing/seo-home/Group.svg">
+                <p id="swiggy-limited">&#169; 2025 Swiggy Limited</p>
+                <div class="footer-part">
+                    <ul class="list-items" id="company">
+                        <h4 class="footer-heading">Company</h4>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Swiggy corporate</a></li>
+                        <li><a href="#">Carrers</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Swiggy One</a></li>
+                        <li><a href="#">Swiggy Instamart</a></li>
+                        <li><a href="#">Swiggy Dineout</a></li>
+                        <li><a href="#">Swiggy Genie</a></li>
+                        <li><a href="#">Minis</a></li>
+                        <li><a href="#">Pyng</a></li>
+                    </ul>
+                    <ul class="list-items" id="contact">
+                        <h4 class="footer-heading">Contact us</h4>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Partner With Us</a></li>
+                        <li><a href="#">Ride With Us</a></li>
+                    </ul>
+                    <ul class="list-items" id="legal">
+                        <h4 class="footer-heading">Legal</h4>
+                        <li><a href="#">Terms & <br /> Conditions</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                    <ul class="list-items" id="available">
+                        <h4 class="footer-heading">Available in:</h4>
+                        <li><a href="#">Bangalore</a></li>
+                        <li><a href="#">Gurgaon</a></li>
+                        <li><a href="#">Hyderabad</a></li>
+                        <li><a href="#">Delhi</a></li>
+                        <li><a href="#">Mumbai</a></li>
+                        <li><a href="#">Pune</a></li>
+                    </ul>
+                    <ul class="list-items" id="life-at-swiggy">
+                        <h4 class="footer-heading">Life at Swiggy</h4>
+                        <li><a href="#">Explore With Swiggy</a></li>
+                        <li><a href="#">Swiggy News</a></li>
+                        <li><a href="#">Snackables</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <h4 class="footer-heading">Social Links</h4>
+                        <a href="https://www.linkedin.com/company/swiggy-in/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/swiggyindia/?hl=en"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/swiggy.in/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-paypal"></i></a>
+                        <a href="https://twitter.com/Swiggy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <hr id="underline" />
+                <div>
+                    <h5 id="Swiggy-text">For better experience,download the Swiggy app now</h5>
+                    <span class="imgs">
+                        <a href="#"><img alt=""
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-GooglePlay_1_zixjxl"
+                                height="65" width="200" class="img"></a>
+                        <a href="#"><img alt=""
+                                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_200,h_65/icon-AppStore_lg30tv"
+                                height="65" width="200" class="img"></a>
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer ends here -->
+
+    <script src="/Dining Out Restaurants.js"></script>
+</body>
+
+</html>

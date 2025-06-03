@@ -1,0 +1,418 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ html,
+ body {
+     height: 100%;
+     width: 100%;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ .container-fluid {
+     background: linear-gradient(180.27deg, #FFFFFF 0.23%, #FEFBFF 13.48%, #EBEBF3 51.03%);
+     position: absolute;
+     top: -20px;
+ }
+
+ .Swiggy-alt-logo {
+     height: 42px;
+     width: 128px;
+ }
+
+ .list-items ul {
+     display: flex;
+     position: fixed;
+     width: 100%;
+     background-color: white;
+     z-index: 1;
+     left: 0;
+     top: 3px;
+     margin-top: -10px;
+ }
+
+ .Corporate-items {
+     text-decoration: none;
+     margin: 10px;
+     font-size: 14px;
+     position: relative;
+     left: 128px;
+     top: 33px;
+     color: #242424;
+ }
+
+ .dropdown {
+     border: none;
+     cursor: pointer;
+     background-color: white;
+ }
+
+ .sec-class:hover {
+     color: #ff5200;
+     transition: 0.4s;
+ }
+
+ .parent-part {
+     position: relative;
+     top: 140px;
+     margin-left: 35%;
+     height: 111vh;
+ }
+
+ .investor {
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+
+ .financial-result {
+     border: 1.5px solid whitesmoke;
+     border-radius: 40px;
+     background-color: #fff;
+     height: 35%;
+     width: 115%;
+     margin-left: -260px;
+     margin-top: 60px;
+ }
+
+ .financial-result-content {
+     margin-top: 50px;
+     margin-left: 50px;
+ }
+
+ ._press-release {
+     border: 2px solid #ff5200;
+     color: #ffff;
+     border-radius: 8px;
+     background-color: #ff5200;
+     padding: 4px 10px;
+ }
+
+ ._more-deails {
+     border: 2px solid #ff5200;
+     color: #ff5200;
+     border-radius: 8px;
+     padding: 4px 10px;
+     background-color: #ffff;
+ }
+
+ ._buttons {
+     margin-top: 30px;
+     margin-left: 50px;
+ }
+
+ div+img {
+     height: 240px;
+     width: 250px;
+     position: absolute;
+     top: 150px;
+     left: 320px;
+ }
+
+ .content-body {
+     position: relative;
+     top: 125%;
+     margin-left: 490px;
+     transform: translate(-50px, -50px);
+ }
+
+ #corporate {
+     color: #242424;
+ }
+
+ .Swiggy-content-parent-cls {
+     display: flex;
+     flex-direction: row;
+     float: right;
+     gap: 25px;
+     margin-right: 90px;
+     margin-top: 50px;
+ }
+
+ .Swiggy-boxes {
+     border: 1px solid grey;
+     border-radius: 30px;
+     height: 190px;
+     width: 310px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 3px 30px;
+     line-height: 2.4rem;
+ }
+
+ #_Swiggy-para {
+     text-wrap: nowrap;
+     font-size: 13px;
+ }
+
+ .date {
+     color: grey;
+ }
+
+ .elementor-widget-icon {
+     width: 40px;
+     background-color: #dadada;
+     border-radius: 90px;
+     text-align: center;
+ }
+
+ .Swiggy-boxes:hover {
+     color: #ff5200;
+     transform: scale(1.1);
+     cursor: pointer;
+     transition: 0.6s;
+ }
+
+ .Subscribe-investor {
+     position: absolute;
+     border: 1.5px solid whitesmoke;
+     border-radius: 40px;
+     background-color: #9E1E62;
+     height: 250px;
+     width: 135%;
+     margin-left: -340px;
+     margin-top: 300px;
+ }
+
+ ._details {
+     position: absolute;
+     top: 120px;
+     left: 100px;
+ }
+
+ ._user-email {
+     border: 1px solid #ffff;
+     color: #ffff;
+     width: 270px;
+     border-radius: 10px;
+     padding: 5px 10px;
+     background-color: #9E1E62;
+     margin: 15px;
+ }
+
+ .subscribe-heading {
+     margin-top: 85px;
+     margin-left: 118px;
+     color: #ffff;
+     font-size: 21px;
+     font-weight: bold;
+ }
+
+ .Subscribe {
+     background-color: #ffff;
+     color: #000;
+     padding: 7px 13px;
+     border: none;
+     border-radius: 10px;
+ }
+
+ .wp-image-2714 {
+     position: absolute;
+     margin-left: 350px;
+     margin-top: -160px;
+     height: 300px;
+ }
+
+ ._investor-related-queries {
+     border: 1.5px solid whitesmoke;
+     border-radius: 40px;
+     background-color: #f3f1f1;
+     height: 250px;
+     width: 145%;
+     margin-left: -360px;
+     margin-top: 640px;
+     position: absolute;
+ }
+
+ .queries-related {
+     position: absolute;
+     top: 48%;
+     left: 45%;
+     transform: translate(-50px, -50px);
+ }
+
+ #inner-query {
+     margin-top: 80px;
+     margin-left: 73px;
+     font-weight: bold;
+ }
+
+ /* css added to Swiggy app */
+ .getSwiggyapp {
+     position: absolute;
+     top: 1790px;
+     z-index: -2;
+     left: 0;
+ }
+
+ .imgs9 {
+     margin-top: -165px;
+ }
+
+
+ /* Footer css */
+ .social-links {
+     display: inline-block;
+     position: relative;
+     left: 66px;
+     top: -65px;
+ }
+
+ a{
+    color:#000;
+ }
+ 
+ #underline {
+     position: relative;
+     top: 240px;
+     left: 50px;
+ }
+
+ .list-items {
+     list-style: none;
+     display: inline-block;
+     font-size: 13px;
+     line-height: 25px;
+ }
+
+ #swiggy-limited {
+     font-size: 12px;
+     margin-top: 5px;
+     margin-left: 72px;
+ }
+
+ .footer-heading {
+     font-size: 16px;
+ }
+
+ .footer-part {
+     position: absolute;
+     left: 390px;
+ }
+
+ #company {
+     margin-top: -70px;
+ }
+
+ #contact {
+     position: absolute;
+     top: -68px;
+     left: 145px;
+ }
+
+ #legal {
+     position: relative;
+     top: 8px;
+     left: 11px;
+ }
+
+ #available {
+     position: absolute;
+     top: -68px;
+     left: 290px;
+     text-wrap: nowrap;
+ }
+
+ #life-at-swiggy {
+     position: relative;
+     top: -170px;
+     left: 186px;
+ }
+
+ #Swiggy-text {
+     margin-top: 280px;
+     margin-left: 76px;
+     font-weight: bold;
+ }
+
+ .imgs .img {
+     float: right;
+     height: 50px;
+     width: 130px;
+     margin: 6px;
+     position: relative;
+     top: -50px;
+     right: 190px;
+ }
+
+ .img:hover {
+     cursor: pointer;
+     transition: 1s;
+     transform: scale(1.1);
+ }
+
+ .footer-container {
+     position: relative;
+     top: 1680px;
+     z-index: -2;
+ }
+
+ .sub-items {
+     position: relative;
+     color: #242424;
+     text-decoration: none;
+ }
+
+ .Swiggy-img {
+     height: 35px;
+     margin-left: 72px;
+ }
+
+ .elementor-element2 {
+     margin-top: -470px;
+     position: absolute;
+     left: 660px;
+     border: 2px solid white;
+     width: 360px;
+     background-color: rgb(245, 245, 245);
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .get-in-touch {
+     font-size: 21px;
+     font-weight: bold;
+ }
+
+ .Name {
+     margin-top: -20px;
+     font-size: 13px;
+     border: none;
+     border-radius: 5px;
+     padding: 0 8px;
+ }
+
+ .email {
+     border: none;
+     border-radius: 5px;
+     font-size: 13px;
+     padding: 0 8px;
+ }
+
+ .message {
+     border: none;
+     border-radius: 5px;
+     font-size: 13px;
+     padding: 4px 10px;
+ }
+
+ .Submit-btn {
+     background-color: #ff5200;
+     color: white;
+     padding: 5px 10px;
+     font-size: 13px;
+     border: none;
+     border-radius: 10px;
+ }
+
+ #bottom-para {
+     color: rgb(133, 129, 129);
+     font-size: 12px;
+     text-align: center;
+ }
