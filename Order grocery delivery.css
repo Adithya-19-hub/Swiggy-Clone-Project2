@@ -186,7 +186,10 @@
      text-decoration: none;
  }
 
- .furniture-parent ,.house-hold-lifestyle,.Snacks-drinks,.beauty-personal{
+ .furniture-parent,
+ .house-hold-lifestyle,
+ .Snacks-drinks,
+ .beauty-personal {
      display: grid;
      grid-template-columns: repeat(7, 130px);
      grid-row-gap: 30px;
@@ -207,10 +210,10 @@
  }
 
  .house-hold-parent {
-     margin-left: 100px;     
+     margin-left: 100px;
  }
 
- .parent-recipe-boxes {
+ .parent-recipe-boxes,.parent-recipe-boxes2,.parent-recipe-boxes3,.parent-recipe-boxes4,.parent-recipe-boxes5,.parent-recipe-boxes6 {
      margin-left: 90px;
      margin-top: 20px;
  }
