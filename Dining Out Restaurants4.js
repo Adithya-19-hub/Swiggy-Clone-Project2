@@ -1,5 +1,5 @@
 
-// JS Logig for Explore localities. 
+// JS Logic for Explore localities. 
 let array1 = [
     { names: "North Delhi Restaurants" },
     { names: "India Gate Restaurants" },
@@ -44,7 +44,7 @@ function fun1() {
 
 
 
-// JS Logig for Explore Top Cuisine Dining Sports. 
+// JS Logic for Explore Top Cuisine Dining Sports. 
 let array2 = [
     { names: "Korean Restaurants" },
     { names: "Thai Restaurants" },
@@ -87,7 +87,7 @@ function fun4() {
 }
 
 
-// JS Logig for More Cuisines Restaurants Options Near Me. 
+// JS Logic for More Cuisines Restaurants Options Near Me. 
 let array3 = [
     { names: "Korean Restaurants near me" },
     { names: "Thai Restaurants near me" },

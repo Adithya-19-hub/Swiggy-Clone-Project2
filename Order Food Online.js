@@ -77,7 +77,7 @@ function fun4() {
     });
 }
 
-// JS Logig for More Cuisines Restaurants Options Near Me. 
+// JS Logic for More Cuisines Restaurants Options Near Me. 
 let array3 = [
     { names: "Korean Restaurants near me" },
     { names: "Thai Restaurants near me" },
